@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     # change the source location
     s.source            = { :git => 'https://github.com/kailea/LokiSDK.git' } 
-    s.ios.deployment_target = '10.0'
+    s.ios.deployment_target = '15.1'
     s.ios.vendored_frameworks = 'LokiSDK.xcframework' # Your XCFramework
     s.dependency 'Alamofire'
     s.dependency 'AzureIoTUtility'
