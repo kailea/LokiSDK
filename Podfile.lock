@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.8.0)
+  - AzureIoTHubClient (1.10.0):
+    - AzureIoTuAmqp (= 1.10.0)
+    - AzureIoTuMqtt (= 1.10.0)
+    - AzureIoTUtility (= 1.10.0)
+    - AzureMacroUtils (= 1.4.0)
+    - AzureuMockC (= 1.4.0)
+  - AzureIoTuAmqp (1.10.0):
+    - AzureIoTUtility (= 1.10.0)
+    - AzureMacroUtils (= 1.4.0)
+    - AzureuMockC (= 1.4.0)
+  - AzureIoTuMqtt (1.10.0):
+    - AzureIoTUtility (= 1.10.0)
+    - AzureMacroUtils (= 1.4.0)
+    - AzureuMockC (= 1.4.0)
+  - AzureIoTUtility (1.10.0):
+    - AzureMacroUtils (= 1.4.0)
+    - AzureuMockC (= 1.4.0)
+  - AzureMacroUtils (1.4.0)
+  - AzureuMockC (1.4.0):
+    - AzureMacroUtils (= 1.4.0)
+  - DeviceKit (5.0.0)
+  - OpenSSL-Universal (3.1.2000)
+  - Swinject (2.8.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AzureIoTHubClient
+  - AzureIoTuAmqp
+  - AzureIoTuMqtt
+  - AzureIoTUtility
+  - DeviceKit
+  - OpenSSL-Universal
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AzureIoTHubClient
+    - AzureIoTuAmqp
+    - AzureIoTuMqtt
+    - AzureIoTUtility
+    - AzureMacroUtils
+    - AzureuMockC
+    - DeviceKit
+    - OpenSSL-Universal
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AzureIoTHubClient: 4d4b745b122f8323216ad90f4bcb7e0d40f8e6fd
+  AzureIoTuAmqp: 088d2b714ed7c70980f3e72a08896951844494bf
+  AzureIoTuMqtt: 80c7351d32ea82f35e8b0189d2b2e779ca7a3527
+  AzureIoTUtility: 2250cdf4c8a3903af472af92c2ef8c5d4a57cfc6
+  AzureMacroUtils: 430d0f0a43baff6504f5254e9cb7e21f868443b4
+  AzureuMockC: fcecbb3d7e454e5c4c8a501ce33c332ab83e43d0
+  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  OpenSSL-Universal: 5c78478d4094c38bd85f19f079e364a983d7005d
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+
+PODFILE CHECKSUM: 0fcd91f31adcb1cafd4427442b992b7be8e11637
+
+COCOAPODS: 1.12.1
