@@ -1,0 +1,11 @@
+//
+//  LokiSDK.debug.xcconfig
+//  LokiSDK
+//
+//  Created by Amandeep Kaile on 19/9/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "../Pods/Target Support Files/Pods-LokiSDK/Pods-LokiSDK.debug.xcconfig"
+#include "Base.xcconfig"

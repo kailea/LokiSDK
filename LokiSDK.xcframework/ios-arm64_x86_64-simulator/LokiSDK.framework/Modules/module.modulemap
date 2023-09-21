@@ -1,0 +1,11 @@
+framework module LokiSDK {
+  umbrella header "LokiSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module LokiSDK.Swift {
+  header "LokiSDK-Swift.h"
+  requires objc
+}

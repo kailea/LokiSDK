@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75076F829D15FDAB0C93EE92 /* Pods_LokiSDK_LokiSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6FC4C637C4692037B0BE8B /* Pods_LokiSDK_LokiSDKTests.framework */; };
+		FBA25509BCFD435D63306479 /* Pods_LokiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C1FB8F68DC1BE4CD764F8B /* Pods_LokiSDK.framework */; };
+		FDB020DC2AB936430070C04E /* LokiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB020D32AB936430070C04E /* LokiSDK.framework */; };
+		FDB020E12AB936430070C04E /* LokiSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020E02AB936430070C04E /* LokiSDKTests.swift */; };
+		FDB020E22AB936430070C04E /* LokiSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB020D62AB936430070C04E /* LokiSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB021272AB948470070C04E /* LokiServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F12AB948470070C04E /* LokiServiceAssembly.swift */; };
+		FDB021282AB948470070C04E /* Loki.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F22AB948470070C04E /* Loki.swift */; };
+		FDB021292AB948470070C04E /* LokiLocationManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F32AB948470070C04E /* LokiLocationManagerInterface.swift */; };
+		FDB0212A2AB948470070C04E /* LocationDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F52AB948470070C04E /* LocationDataController.swift */; };
+		FDB0212B2AB948470070C04E /* LocationData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F62AB948470070C04E /* LocationData.xcdatamodeld */; };
+		FDB0212C2AB948470070C04E /* LokiApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020F92AB948470070C04E /* LokiApiRouter.swift */; };
+		FDB0212D2AB948470070C04E /* LokiNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020FA2AB948470070C04E /* LokiNetworkLogger.swift */; };
+		FDB0212E2AB948470070C04E /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020FC2AB948470070C04E /* LoginRequest.swift */; };
+		FDB0212F2AB948470070C04E /* LogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020FD2AB948470070C04E /* LogRequest.swift */; };
+		FDB021302AB948470070C04E /* SendLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020FE2AB948470070C04E /* SendLocationRequest.swift */; };
+		FDB021312AB948470070C04E /* SubscribeUnsubscribeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB020FF2AB948470070C04E /* SubscribeUnsubscribeRequest.swift */; };
+		FDB021322AB948470070C04E /* LokiNetwokEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021002AB948470070C04E /* LokiNetwokEventMonitor.swift */; };
+		FDB021332AB948470070C04E /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021022AB948470070C04E /* LogoutResponse.swift */; };
+		FDB021342AB948470070C04E /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021032AB948470070C04E /* LoginResponse.swift */; };
+		FDB021352AB948470070C04E /* SubscribeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021042AB948470070C04E /* SubscribeResponse.swift */; };
+		FDB021362AB948470070C04E /* LokiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021052AB948470070C04E /* LokiAPIManager.swift */; };
+		FDB021372AB948470070C04E /* LokiJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021062AB948470070C04E /* LokiJsonDecoder.swift */; };
+		FDB021382AB948470070C04E /* LokiApiManagerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021072AB948470070C04E /* LokiApiManagerInterface.swift */; };
+		FDB021392AB948470070C04E /* LokiDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021082AB948470070C04E /* LokiDataDecoder.swift */; };
+		FDB0213A2AB948470070C04E /* LokiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210A2AB948470070C04E /* LokiConfiguration.swift */; };
+		FDB0213B2AB948470070C04E /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210B2AB948470070C04E /* Publisher.swift */; };
+		FDB0213C2AB948470070C04E /* MLVInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210C2AB948470070C04E /* MLVInfo.swift */; };
+		FDB0213D2AB948470070C04E /* LokiDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210D2AB948470070C04E /* LokiDevice.swift */; };
+		FDB0213E2AB948470070C04E /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210E2AB948470070C04E /* Battery.swift */; };
+		FDB0213F2AB948470070C04E /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0210F2AB948470070C04E /* DeviceInfo.swift */; };
+		FDB021402AB948470070C04E /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021102AB948470070C04E /* LocationInfo.swift */; };
+		FDB021412AB948470070C04E /* LastKnownLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021112AB948470070C04E /* LastKnownLocation.swift */; };
+		FDB021422AB948470070C04E /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021122AB948470070C04E /* Coordinates.swift */; };
+		FDB021432AB948470070C04E /* CLLocation+Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021142AB948470070C04E /* CLLocation+Encodable.swift */; };
+		FDB021442AB948470070C04E /* String+EncodeDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021152AB948470070C04E /* String+EncodeDecode.swift */; };
+		FDB021452AB948470070C04E /* JSonEncoder+CustomISO8601Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021162AB948470070C04E /* JSonEncoder+CustomISO8601Strategy.swift */; };
+		FDB021462AB948470070C04E /* Formatter+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021172AB948470070C04E /* Formatter+ISO8601.swift */; };
+		FDB021472AB948470070C04E /* CLLocation+Loki.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021182AB948470070C04E /* CLLocation+Loki.swift */; };
+		FDB021482AB948470070C04E /* String+Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021192AB948470070C04E /* String+Pointer.swift */; };
+		FDB021492AB948470070C04E /* LokiNotification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211A2AB948470070C04E /* LokiNotification+Name.swift */; };
+		FDB0214A2AB948470070C04E /* LokiEncodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211B2AB948470070C04E /* LokiEncodable+Dictionary.swift */; };
+		FDB0214B2AB948470070C04E /* Encodable+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211C2AB948470070C04E /* Encodable+Json.swift */; };
+		FDB0214C2AB948470070C04E /* NSSet+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211D2AB948470070C04E /* NSSet+Array.swift */; };
+		FDB0214D2AB948470070C04E /* UserDefauls+ObjectSavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211E2AB948470070C04E /* UserDefauls+ObjectSavable.swift */; };
+		FDB0214E2AB948470070C04E /* CLLocationCoordinate2D+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0211F2AB948470070C04E /* CLLocationCoordinate2D+Distance.swift */; };
+		FDB0214F2AB948470070C04E /* Bundle+AppName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021202AB948470070C04E /* Bundle+AppName.swift */; };
+		FDB021502AB948470070C04E /* CLLocationCoordinate2D+RegionCenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021212AB948470070C04E /* CLLocationCoordinate2D+RegionCenters.swift */; };
+		FDB021512AB948470070C04E /* RegionLocationCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021222AB948470070C04E /* RegionLocationCacheable.swift */; };
+		FDB021522AB948470070C04E /* LokiAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021232AB948470070C04E /* LokiAssembler.swift */; };
+		FDB021532AB948470070C04E /* LokiLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021242AB948470070C04E /* LokiLocation.swift */; };
+		FDB021542AB948470070C04E /* LokiLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021252AB948470070C04E /* LokiLocationManager.swift */; };
+		FDB021552AB948470070C04E /* ObjectSavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021262AB948470070C04E /* ObjectSavable.swift */; };
+		FDB0215C2AB94B620070C04E /* FrameworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215B2AB94B620070C04E /* FrameworkConstants.swift */; };
+		FDB0215F2AB94CC00070C04E /* String+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215D2AB94CC00070C04E /* String+Substrings.swift */; };
+		FDB021602AB94CC00070C04E /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215E2AB94CC00070C04E /* String+Trim.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB020DD2AB936430070C04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB020CA2AB936430070C04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB020D22AB936430070C04E;
+			remoteInfo = LokiSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6985CB08AD01BC70EC4CF4F4 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokiSDK-LokiSDKTests.release.xcconfig"; path = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6B7E90E71335AB49D2D46E0 /* Pods-LokiSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokiSDK.debug.xcconfig"; path = "Target Support Files/Pods-LokiSDK/Pods-LokiSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C772B540C5B87B4A501FDFE2 /* Pods-LokiSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokiSDK.release.xcconfig"; path = "Target Support Files/Pods-LokiSDK/Pods-LokiSDK.release.xcconfig"; sourceTree = "<group>"; };
+		EF1D401A99680D7AA8353A9A /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokiSDK-LokiSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C1FB8F68DC1BE4CD764F8B /* Pods_LokiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6FC4C637C4692037B0BE8B /* Pods_LokiSDK_LokiSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokiSDK_LokiSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB020D32AB936430070C04E /* LokiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LokiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB020D62AB936430070C04E /* LokiSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LokiSDK.h; sourceTree = "<group>"; };
+		FDB020DB2AB936430070C04E /* LokiSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokiSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB020E02AB936430070C04E /* LokiSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokiSDKTests.swift; sourceTree = "<group>"; };
+		FDB020F12AB948470070C04E /* LokiServiceAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiServiceAssembly.swift; sourceTree = "<group>"; };
+		FDB020F22AB948470070C04E /* Loki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loki.swift; sourceTree = "<group>"; };
+		FDB020F32AB948470070C04E /* LokiLocationManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiLocationManagerInterface.swift; sourceTree = "<group>"; };
+		FDB020F52AB948470070C04E /* LocationDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDataController.swift; sourceTree = "<group>"; };
+		FDB020F72AB948470070C04E /* LocationData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationData.xcdatamodel; sourceTree = "<group>"; };
+		FDB020F92AB948470070C04E /* LokiApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiApiRouter.swift; sourceTree = "<group>"; };
+		FDB020FA2AB948470070C04E /* LokiNetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiNetworkLogger.swift; sourceTree = "<group>"; };
+		FDB020FC2AB948470070C04E /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		FDB020FD2AB948470070C04E /* LogRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRequest.swift; sourceTree = "<group>"; };
+		FDB020FE2AB948470070C04E /* SendLocationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLocationRequest.swift; sourceTree = "<group>"; };
+		FDB020FF2AB948470070C04E /* SubscribeUnsubscribeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeUnsubscribeRequest.swift; sourceTree = "<group>"; };
+		FDB021002AB948470070C04E /* LokiNetwokEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiNetwokEventMonitor.swift; sourceTree = "<group>"; };
+		FDB021022AB948470070C04E /* LogoutResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutResponse.swift; sourceTree = "<group>"; };
+		FDB021032AB948470070C04E /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		FDB021042AB948470070C04E /* SubscribeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeResponse.swift; sourceTree = "<group>"; };
+		FDB021052AB948470070C04E /* LokiAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiAPIManager.swift; sourceTree = "<group>"; };
+		FDB021062AB948470070C04E /* LokiJsonDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiJsonDecoder.swift; sourceTree = "<group>"; };
+		FDB021072AB948470070C04E /* LokiApiManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiApiManagerInterface.swift; sourceTree = "<group>"; };
+		FDB021082AB948470070C04E /* LokiDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiDataDecoder.swift; sourceTree = "<group>"; };
+		FDB0210A2AB948470070C04E /* LokiConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiConfiguration.swift; sourceTree = "<group>"; };
+		FDB0210B2AB948470070C04E /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		FDB0210C2AB948470070C04E /* MLVInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLVInfo.swift; sourceTree = "<group>"; };
+		FDB0210D2AB948470070C04E /* LokiDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiDevice.swift; sourceTree = "<group>"; };
+		FDB0210E2AB948470070C04E /* Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		FDB0210F2AB948470070C04E /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		FDB021102AB948470070C04E /* LocationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
+		FDB021112AB948470070C04E /* LastKnownLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastKnownLocation.swift; sourceTree = "<group>"; };
+		FDB021122AB948470070C04E /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		FDB021142AB948470070C04E /* CLLocation+Encodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Encodable.swift"; sourceTree = "<group>"; };
+		FDB021152AB948470070C04E /* String+EncodeDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EncodeDecode.swift"; sourceTree = "<group>"; };
+		FDB021162AB948470070C04E /* JSonEncoder+CustomISO8601Strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSonEncoder+CustomISO8601Strategy.swift"; sourceTree = "<group>"; };
+		FDB021172AB948470070C04E /* Formatter+ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Formatter+ISO8601.swift"; sourceTree = "<group>"; };
+		FDB021182AB948470070C04E /* CLLocation+Loki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Loki.swift"; sourceTree = "<group>"; };
+		FDB021192AB948470070C04E /* String+Pointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Pointer.swift"; sourceTree = "<group>"; };
+		FDB0211A2AB948470070C04E /* LokiNotification+Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LokiNotification+Name.swift"; sourceTree = "<group>"; };
+		FDB0211B2AB948470070C04E /* LokiEncodable+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LokiEncodable+Dictionary.swift"; sourceTree = "<group>"; };
+		FDB0211C2AB948470070C04E /* Encodable+Json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Json.swift"; sourceTree = "<group>"; };
+		FDB0211D2AB948470070C04E /* NSSet+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSSet+Array.swift"; sourceTree = "<group>"; };
+		FDB0211E2AB948470070C04E /* UserDefauls+ObjectSavable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauls+ObjectSavable.swift"; sourceTree = "<group>"; };
+		FDB0211F2AB948470070C04E /* CLLocationCoordinate2D+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Distance.swift"; sourceTree = "<group>"; };
+		FDB021202AB948470070C04E /* Bundle+AppName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+AppName.swift"; sourceTree = "<group>"; };
+		FDB021212AB948470070C04E /* CLLocationCoordinate2D+RegionCenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+RegionCenters.swift"; sourceTree = "<group>"; };
+		FDB021222AB948470070C04E /* RegionLocationCacheable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionLocationCacheable.swift; sourceTree = "<group>"; };
+		FDB021232AB948470070C04E /* LokiAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiAssembler.swift; sourceTree = "<group>"; };
+		FDB021242AB948470070C04E /* LokiLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiLocation.swift; sourceTree = "<group>"; };
+		FDB021252AB948470070C04E /* LokiLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiLocationManager.swift; sourceTree = "<group>"; };
+		FDB021262AB948470070C04E /* ObjectSavable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectSavable.swift; sourceTree = "<group>"; };
+		FDB021562AB949FE0070C04E /* LokiSDK.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LokiSDK.debug.xcconfig; sourceTree = "<group>"; };
+		FDB021582AB94A200070C04E /* LokiSDK.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LokiSDK.release.xcconfig; sourceTree = "<group>"; };
+		FDB021592AB94A4E0070C04E /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		FDB0215B2AB94B620070C04E /* FrameworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkConstants.swift; sourceTree = "<group>"; };
+		FDB0215D2AB94CC00070C04E /* String+Substrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Substrings.swift"; sourceTree = "<group>"; };
+		FDB0215E2AB94CC00070C04E /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		FDB021612AB94D450070C04E /* Loki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Loki-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB020D02AB936430070C04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA25509BCFD435D63306479 /* Pods_LokiSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB020D82AB936430070C04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB020DC2AB936430070C04E /* LokiSDK.framework in Frameworks */,
+				75076F829D15FDAB0C93EE92 /* Pods_LokiSDK_LokiSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF27190CB4A4D285AEA8C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C1FB8F68DC1BE4CD764F8B /* Pods_LokiSDK.framework */,
+				FC6FC4C637C4692037B0BE8B /* Pods_LokiSDK_LokiSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CBA3F4F63ED245AA6224ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6B7E90E71335AB49D2D46E0 /* Pods-LokiSDK.debug.xcconfig */,
+				C772B540C5B87B4A501FDFE2 /* Pods-LokiSDK.release.xcconfig */,
+				EF1D401A99680D7AA8353A9A /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */,
+				6985CB08AD01BC70EC4CF4F4 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDB020C92AB936430070C04E = {
+			isa = PBXGroup;
+			children = (
+				FDB020D52AB936430070C04E /* LokiSDK */,
+				FDB020DF2AB936430070C04E /* LokiSDKTests */,
+				FDB020D42AB936430070C04E /* Products */,
+				F5CBA3F4F63ED245AA6224ED /* Pods */,
+				DBF27190CB4A4D285AEA8C7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB020D42AB936430070C04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB020D32AB936430070C04E /* LokiSDK.framework */,
+				FDB020DB2AB936430070C04E /* LokiSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB020D52AB936430070C04E /* LokiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021592AB94A4E0070C04E /* Base.xcconfig */,
+				FDB021612AB94D450070C04E /* Loki-Info.plist */,
+				FDB020F02AB948470070C04E /* LokiCore */,
+				FDB021562AB949FE0070C04E /* LokiSDK.debug.xcconfig */,
+				FDB020D62AB936430070C04E /* LokiSDK.h */,
+				FDB021582AB94A200070C04E /* LokiSDK.release.xcconfig */,
+				FDB0215A2AB94B380070C04E /* Supporting Files */,
+			);
+			path = LokiSDK;
+			sourceTree = "<group>";
+		};
+		FDB020DF2AB936430070C04E /* LokiSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB020E02AB936430070C04E /* LokiSDKTests.swift */,
+			);
+			path = LokiSDKTests;
+			sourceTree = "<group>";
+		};
+		FDB020F02AB948470070C04E /* LokiCore */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021132AB948470070C04E /* Extensions */,
+				FDB020F42AB948470070C04E /* LocationData */,
+				FDB020F22AB948470070C04E /* Loki.swift */,
+				FDB021232AB948470070C04E /* LokiAssembler.swift */,
+				FDB021242AB948470070C04E /* LokiLocation.swift */,
+				FDB021252AB948470070C04E /* LokiLocationManager.swift */,
+				FDB020F32AB948470070C04E /* LokiLocationManagerInterface.swift */,
+				FDB020F12AB948470070C04E /* LokiServiceAssembly.swift */,
+				FDB021092AB948470070C04E /* Models */,
+				FDB020F82AB948470070C04E /* Network */,
+				FDB021262AB948470070C04E /* ObjectSavable.swift */,
+				FDB021222AB948470070C04E /* RegionLocationCacheable.swift */,
+			);
+			path = LokiCore;
+			sourceTree = "<group>";
+		};
+		FDB020F42AB948470070C04E /* LocationData */ = {
+			isa = PBXGroup;
+			children = (
+				FDB020F62AB948470070C04E /* LocationData.xcdatamodeld */,
+				FDB020F52AB948470070C04E /* LocationDataController.swift */,
+			);
+			path = LocationData;
+			sourceTree = "<group>";
+		};
+		FDB020F82AB948470070C04E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021052AB948470070C04E /* LokiAPIManager.swift */,
+				FDB021072AB948470070C04E /* LokiApiManagerInterface.swift */,
+				FDB020F92AB948470070C04E /* LokiApiRouter.swift */,
+				FDB021082AB948470070C04E /* LokiDataDecoder.swift */,
+				FDB021062AB948470070C04E /* LokiJsonDecoder.swift */,
+				FDB021002AB948470070C04E /* LokiNetwokEventMonitor.swift */,
+				FDB020FA2AB948470070C04E /* LokiNetworkLogger.swift */,
+				FDB020FB2AB948470070C04E /* RequestModel */,
+				FDB021012AB948470070C04E /* ResponseModel */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FDB020FB2AB948470070C04E /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDB020FC2AB948470070C04E /* LoginRequest.swift */,
+				FDB020FD2AB948470070C04E /* LogRequest.swift */,
+				FDB020FE2AB948470070C04E /* SendLocationRequest.swift */,
+				FDB020FF2AB948470070C04E /* SubscribeUnsubscribeRequest.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		FDB021012AB948470070C04E /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021032AB948470070C04E /* LoginResponse.swift */,
+				FDB021022AB948470070C04E /* LogoutResponse.swift */,
+				FDB021042AB948470070C04E /* SubscribeResponse.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		FDB021092AB948470070C04E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0210E2AB948470070C04E /* Battery.swift */,
+				FDB021122AB948470070C04E /* Coordinates.swift */,
+				FDB0210F2AB948470070C04E /* DeviceInfo.swift */,
+				FDB021112AB948470070C04E /* LastKnownLocation.swift */,
+				FDB021102AB948470070C04E /* LocationInfo.swift */,
+				FDB0210A2AB948470070C04E /* LokiConfiguration.swift */,
+				FDB0210D2AB948470070C04E /* LokiDevice.swift */,
+				FDB0210C2AB948470070C04E /* MLVInfo.swift */,
+				FDB0210B2AB948470070C04E /* Publisher.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDB021132AB948470070C04E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021202AB948470070C04E /* Bundle+AppName.swift */,
+				FDB021142AB948470070C04E /* CLLocation+Encodable.swift */,
+				FDB021182AB948470070C04E /* CLLocation+Loki.swift */,
+				FDB0211F2AB948470070C04E /* CLLocationCoordinate2D+Distance.swift */,
+				FDB021212AB948470070C04E /* CLLocationCoordinate2D+RegionCenters.swift */,
+				FDB0211C2AB948470070C04E /* Encodable+Json.swift */,
+				FDB021172AB948470070C04E /* Formatter+ISO8601.swift */,
+				FDB021162AB948470070C04E /* JSonEncoder+CustomISO8601Strategy.swift */,
+				FDB0211B2AB948470070C04E /* LokiEncodable+Dictionary.swift */,
+				FDB0211A2AB948470070C04E /* LokiNotification+Name.swift */,
+				FDB0211D2AB948470070C04E /* NSSet+Array.swift */,
+				FDB021152AB948470070C04E /* String+EncodeDecode.swift */,
+				FDB021192AB948470070C04E /* String+Pointer.swift */,
+				FDB0215D2AB94CC00070C04E /* String+Substrings.swift */,
+				FDB0215E2AB94CC00070C04E /* String+Trim.swift */,
+				FDB0211E2AB948470070C04E /* UserDefauls+ObjectSavable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FDB0215A2AB94B380070C04E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0215B2AB94B620070C04E /* FrameworkConstants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FDB020CE2AB936430070C04E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB020E22AB936430070C04E /* LokiSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FDB020D22AB936430070C04E /* LokiSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB020E52AB936430070C04E /* Build configuration list for PBXNativeTarget "LokiSDK" */;
+			buildPhases = (
+				08AABFF8DA8DA0AC5E52C4D3 /* [CP] Check Pods Manifest.lock */,
+				FDB020CE2AB936430070C04E /* Headers */,
+				FDB020CF2AB936430070C04E /* Sources */,
+				FDB020D02AB936430070C04E /* Frameworks */,
+				FDB020D12AB936430070C04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LokiSDK;
+			productName = LokiSDK;
+			productReference = FDB020D32AB936430070C04E /* LokiSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDB020DA2AB936430070C04E /* LokiSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB020E82AB936430070C04E /* Build configuration list for PBXNativeTarget "LokiSDKTests" */;
+			buildPhases = (
+				0C345F9F3CCAD244CFA00CDA /* [CP] Check Pods Manifest.lock */,
+				FDB020D72AB936430070C04E /* Sources */,
+				FDB020D82AB936430070C04E /* Frameworks */,
+				FDB020D92AB936430070C04E /* Resources */,
+				9F42AA5A504545077907452C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB020DE2AB936430070C04E /* PBXTargetDependency */,
+			);
+			name = LokiSDKTests;
+			productName = LokiSDKTests;
+			productReference = FDB020DB2AB936430070C04E /* LokiSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB020CA2AB936430070C04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FDB020D22AB936430070C04E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FDB020DA2AB936430070C04E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FDB020CD2AB936430070C04E /* Build configuration list for PBXProject "LokiSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB020C92AB936430070C04E;
+			productRefGroup = FDB020D42AB936430070C04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB020D22AB936430070C04E /* LokiSDK */,
+				FDB020DA2AB936430070C04E /* LokiSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB020D12AB936430070C04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB020D92AB936430070C04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AABFF8DA8DA0AC5E52C4D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokiSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C345F9F3CCAD244CFA00CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokiSDK-LokiSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F42AA5A504545077907452C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB020CF2AB936430070C04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB021372AB948470070C04E /* LokiJsonDecoder.swift in Sources */,
+				FDB0214B2AB948470070C04E /* Encodable+Json.swift in Sources */,
+				FDB0213A2AB948470070C04E /* LokiConfiguration.swift in Sources */,
+				FDB021452AB948470070C04E /* JSonEncoder+CustomISO8601Strategy.swift in Sources */,
+				FDB021322AB948470070C04E /* LokiNetwokEventMonitor.swift in Sources */,
+				FDB0213E2AB948470070C04E /* Battery.swift in Sources */,
+				FDB0213C2AB948470070C04E /* MLVInfo.swift in Sources */,
+				FDB021512AB948470070C04E /* RegionLocationCacheable.swift in Sources */,
+				FDB0214C2AB948470070C04E /* NSSet+Array.swift in Sources */,
+				FDB0214A2AB948470070C04E /* LokiEncodable+Dictionary.swift in Sources */,
+				FDB021302AB948470070C04E /* SendLocationRequest.swift in Sources */,
+				FDB0212C2AB948470070C04E /* LokiApiRouter.swift in Sources */,
+				FDB021362AB948470070C04E /* LokiAPIManager.swift in Sources */,
+				FDB021502AB948470070C04E /* CLLocationCoordinate2D+RegionCenters.swift in Sources */,
+				FDB0215C2AB94B620070C04E /* FrameworkConstants.swift in Sources */,
+				FDB0213B2AB948470070C04E /* Publisher.swift in Sources */,
+				FDB021292AB948470070C04E /* LokiLocationManagerInterface.swift in Sources */,
+				FDB021462AB948470070C04E /* Formatter+ISO8601.swift in Sources */,
+				FDB021332AB948470070C04E /* LogoutResponse.swift in Sources */,
+				FDB021382AB948470070C04E /* LokiApiManagerInterface.swift in Sources */,
+				FDB021482AB948470070C04E /* String+Pointer.swift in Sources */,
+				FDB0215F2AB94CC00070C04E /* String+Substrings.swift in Sources */,
+				FDB0212D2AB948470070C04E /* LokiNetworkLogger.swift in Sources */,
+				FDB0213D2AB948470070C04E /* LokiDevice.swift in Sources */,
+				FDB021342AB948470070C04E /* LoginResponse.swift in Sources */,
+				FDB0212B2AB948470070C04E /* LocationData.xcdatamodeld in Sources */,
+				FDB021442AB948470070C04E /* String+EncodeDecode.swift in Sources */,
+				FDB0212F2AB948470070C04E /* LogRequest.swift in Sources */,
+				FDB021602AB94CC00070C04E /* String+Trim.swift in Sources */,
+				FDB021282AB948470070C04E /* Loki.swift in Sources */,
+				FDB021432AB948470070C04E /* CLLocation+Encodable.swift in Sources */,
+				FDB021472AB948470070C04E /* CLLocation+Loki.swift in Sources */,
+				FDB021352AB948470070C04E /* SubscribeResponse.swift in Sources */,
+				FDB0214E2AB948470070C04E /* CLLocationCoordinate2D+Distance.swift in Sources */,
+				FDB021522AB948470070C04E /* LokiAssembler.swift in Sources */,
+				FDB0212A2AB948470070C04E /* LocationDataController.swift in Sources */,
+				FDB021392AB948470070C04E /* LokiDataDecoder.swift in Sources */,
+				FDB021492AB948470070C04E /* LokiNotification+Name.swift in Sources */,
+				FDB021542AB948470070C04E /* LokiLocationManager.swift in Sources */,
+				FDB0214F2AB948470070C04E /* Bundle+AppName.swift in Sources */,
+				FDB021272AB948470070C04E /* LokiServiceAssembly.swift in Sources */,
+				FDB021412AB948470070C04E /* LastKnownLocation.swift in Sources */,
+				FDB021422AB948470070C04E /* Coordinates.swift in Sources */,
+				FDB021402AB948470070C04E /* LocationInfo.swift in Sources */,
+				FDB021532AB948470070C04E /* LokiLocation.swift in Sources */,
+				FDB0212E2AB948470070C04E /* LoginRequest.swift in Sources */,
+				FDB021312AB948470070C04E /* SubscribeUnsubscribeRequest.swift in Sources */,
+				FDB0214D2AB948470070C04E /* UserDefauls+ObjectSavable.swift in Sources */,
+				FDB021552AB948470070C04E /* ObjectSavable.swift in Sources */,
+				FDB0213F2AB948470070C04E /* DeviceInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB020D72AB936430070C04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB020E12AB936430070C04E /* LokiSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB020DE2AB936430070C04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB020D22AB936430070C04E /* LokiSDK */;
+			targetProxy = FDB020DD2AB936430070C04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDB020E32AB936430070C04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB020E42AB936430070C04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB020E62AB936430070C04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB021562AB949FE0070C04E /* LokiSDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LokiSDK/Loki-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.LokiSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB020E72AB936430070C04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB021582AB94A200070C04E /* LokiSDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LokiSDK/Loki-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.LokiSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDB020E92AB936430070C04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1D401A99680D7AA8353A9A /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.LokiSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB020EA2AB936430070C04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6985CB08AD01BC70EC4CF4F4 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.LokiSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB020CD2AB936430070C04E /* Build configuration list for PBXProject "LokiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB020E32AB936430070C04E /* Debug */,
+				FDB020E42AB936430070C04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB020E52AB936430070C04E /* Build configuration list for PBXNativeTarget "LokiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB020E62AB936430070C04E /* Debug */,
+				FDB020E72AB936430070C04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB020E82AB936430070C04E /* Build configuration list for PBXNativeTarget "LokiSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB020E92AB936430070C04E /* Debug */,
+				FDB020EA2AB936430070C04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDB020F62AB948470070C04E /* LocationData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDB020F72AB948470070C04E /* LocationData.xcdatamodel */,
+			);
+			currentVersion = FDB020F72AB948470070C04E /* LocationData.xcdatamodel */;
+			path = LocationData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDB020CA2AB936430070C04E /* Project object */;
+}
