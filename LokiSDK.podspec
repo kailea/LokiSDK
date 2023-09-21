@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
     s.dependency 'OpenSSL-Universal'
     s.dependency 'DeviceKit'
     s.dependency 'Swinject'
+    s.swift_version = '5.0'
 end
