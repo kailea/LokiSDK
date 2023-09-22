@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'LokiSDK' # Name for your pod
-    s.version           = '1.0.2'
+    s.version           = '1.0.3'
     s.summary           = 'LokiSDK'
     s.homepage          = 'https://www.google.com'
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    s.source            = { :git => 'https://github.com/kailea/LokiSDK.git', :tag => 'v1.0.2' } 
+    s.source            = { :git => 'https://github.com/kailea/LokiSDK.git', :tag => 'v1.0.3' } 
     s.ios.deployment_target = '15.1'
     s.ios.vendored_frameworks = 'LokiSDK.xcframework' # Your XCFramework
     s.dependency 'Alamofire'

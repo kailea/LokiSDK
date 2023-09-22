@@ -17,7 +17,7 @@ public enum SendStatus : Int16, Codable {
 	case httpFailedEx = 6
 	case ignored = 7
 	
-	func description() -> String {
+	public func description() -> String {
 		switch self {
 			case .mqttSend:
 				return "MQTT Success"

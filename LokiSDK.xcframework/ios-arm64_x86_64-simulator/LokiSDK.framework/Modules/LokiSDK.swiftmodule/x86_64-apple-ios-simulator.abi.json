@@ -7917,6 +7917,27 @@
             "moduleName": "LokiSDK"
           },
           {
+            "kind": "Function",
+            "name": "description",
+            "printedName": "description()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LokiSDK10SendStatusO11descriptionSSyF",
+            "mangledName": "$s7LokiSDK10SendStatusO11descriptionSSyF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -15357,84 +15378,84 @@
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 405,
       "length": 14,
       "value": "\"MQTT Success\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 443,
+      "offset": 450,
       "length": 14,
       "value": "\"HTTP Success\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 497,
       "length": 13,
       "value": "\"MQTT Failed\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 543,
       "length": 13,
       "value": "\"HTTP Failed\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 589,
       "length": 14,
       "value": "\"HTTP Success\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 631,
+      "offset": 638,
       "length": 13,
       "value": "\"HTTP Failed\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 681,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 714,
       "length": 14,
       "value": "\"Local update\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 820,
+      "offset": 827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 856,
+      "offset": 863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 894,
+      "offset": 901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 923,
+      "offset": 930,
       "length": 4,
       "value": "true"
     },
@@ -15553,56 +15574,56 @@
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1136,
       "length": 12,
       "value": "\"locationId\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1167,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
+      "offset": 1195,
       "length": 9,
       "value": "\"appMode\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1136,
       "length": 12,
       "value": "\"locationId\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1167,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
+      "offset": 1195,
       "length": 9,
       "value": "\"appMode\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1292,
       "length": 15,
       "value": "\"LOC-\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
+      "offset": 1306,
       "length": 2,
       "value": "\"\""
     },

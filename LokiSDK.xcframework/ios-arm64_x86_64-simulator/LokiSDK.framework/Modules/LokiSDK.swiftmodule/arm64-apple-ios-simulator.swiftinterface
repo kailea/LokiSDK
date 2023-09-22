@@ -263,6 +263,7 @@ public enum SendStatus : Swift.Int16, Swift.Codable {
   case httpSendEx
   case httpFailedEx
   case ignored
+  public func description() -> Swift.String
   public init?(rawValue: Swift.Int16)
   public typealias RawValue = Swift.Int16
   public var rawValue: Swift.Int16 {
