@@ -8128,6 +8128,39 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(location:appMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationInfo",
+                "printedName": "LokiSDK.LocationInfo",
+                "usr": "s:7LokiSDK12LocationInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDK.AppMode",
+                "usr": "s:7LokiSDK7AppModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LokiSDK12LocationInfoV8location7appModeACSo10CLLocationC_AA03AppG0Otcfc",
+            "mangledName": "$s7LokiSDK12LocationInfoV8location7appModeACSo10CLLocationC_AA03AppG0Otcfc",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -8217,6 +8250,184 @@
         "kind": "TypeDecl",
         "name": "LokiLocation",
         "printedName": "LokiLocation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lokiId",
+            "printedName": "lokiId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK0A8LocationV6lokiIdSSvp",
+            "mangledName": "$s7LokiSDK0A8LocationV6lokiIdSSvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK0A8LocationV6lokiIdSSvg",
+                "mangledName": "$s7LokiSDK0A8LocationV6lokiIdSSvg",
+                "moduleName": "LokiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK0A8LocationV8locationSo10CLLocationCvp",
+            "mangledName": "$s7LokiSDK0A8LocationV8locationSo10CLLocationCvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK0A8LocationV8locationSo10CLLocationCvg",
+                "mangledName": "$s7LokiSDK0A8LocationV8locationSo10CLLocationCvg",
+                "moduleName": "LokiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSimulated",
+            "printedName": "isSimulated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK0A8LocationV11isSimulatedSbvp",
+            "mangledName": "$s7LokiSDK0A8LocationV11isSimulatedSbvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK0A8LocationV11isSimulatedSbvg",
+                "mangledName": "$s7LokiSDK0A8LocationV11isSimulatedSbvg",
+                "moduleName": "LokiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appMode",
+            "printedName": "appMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppMode",
+                "printedName": "LokiSDK.AppMode",
+                "usr": "s:7LokiSDK7AppModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LokiSDK0A8LocationV7appModeAA03AppE0Ovp",
+            "mangledName": "$s7LokiSDK0A8LocationV7appModeAA03AppE0Ovp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppMode",
+                    "printedName": "LokiSDK.AppMode",
+                    "usr": "s:7LokiSDK7AppModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LokiSDK0A8LocationV7appModeAA03AppE0Ovg",
+                "mangledName": "$s7LokiSDK0A8LocationV7appModeAA03AppE0Ovg",
+                "moduleName": "LokiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:7LokiSDK0A8LocationV",
         "mangledName": "$s7LokiSDK0A8LocationV",
@@ -11959,6 +12170,78 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isValid",
+            "printedName": "isValid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So10CLLocationC7LokiSDKE7isValidSbvp",
+            "mangledName": "$sSo10CLLocationC7LokiSDKE7isValidSbvp",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So10CLLocationC7LokiSDKE7isValidSbvg",
+                "mangledName": "$sSo10CLLocationC7LokiSDKE7isValidSbvg",
+                "moduleName": "LokiSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "speedKmh",
+            "printedName": "speedKmh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So10CLLocationC7LokiSDKE8speedKmhSSSgyF",
+            "mangledName": "$sSo10CLLocationC7LokiSDKE8speedKmhSSSgyF",
+            "moduleName": "LokiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -13976,84 +14259,84 @@
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 252,
+      "offset": 259,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 265,
+      "offset": 272,
       "length": 5,
       "value": "-90.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 280,
+      "offset": 287,
       "length": 4,
       "value": "90.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 315,
+      "offset": 322,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 328,
+      "offset": 335,
       "length": 6,
       "value": "-180.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 344,
+      "offset": 351,
       "length": 5,
       "value": "180.0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 403,
+      "offset": 410,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 554,
+      "offset": 568,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "FloatLiteral",
-      "offset": 591,
+      "offset": 605,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "IntegerLiteral",
-      "offset": 621,
+      "offset": 635,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "StringLiteral",
-      "offset": 632,
+      "offset": 646,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Extensions\/CLLocation+Loki.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 662,
       "length": 3,
       "value": "\"kph\""
     },
@@ -15250,14 +15533,14 @@
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1285,
       "length": 15,
       "value": "\"LOC-\""
     },
     {
       "filePath": "\/Users\/akaile\/Development\/LokiSDK\/LokiSDK\/LokiCore\/Models\/LocationInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1292,
+      "offset": 1299,
       "length": 2,
       "value": "\"\""
     },

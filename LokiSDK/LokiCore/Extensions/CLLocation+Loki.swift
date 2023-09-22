@@ -8,7 +8,7 @@
 import CoreLocation
 
 extension CLLocation {
-	var isValid : Bool {
+	public var isValid : Bool {
 		let lat = coordinate.latitude
 		let lon = coordinate.longitude
 		
@@ -18,7 +18,7 @@ extension CLLocation {
 		return latitudeValid && longitudeValid && horizontalAccuracyValid
 	}
 	
-	func speedKmh() -> String? {
+	public func speedKmh() -> String? {
 		if Date.now.timeIntervalSince(timestamp) <= 60 {
 			let currentSpeed = Int(speed*3.6)
 			return currentSpeed > 0 ? String("\(currentSpeed)kph") : nil

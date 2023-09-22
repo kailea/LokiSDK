@@ -192,6 +192,12 @@ extension CoreLocation.CLLocationSourceInformation : Swift.Encodable {
 public struct CLLocationSourceInformationWrapper : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+extension CoreLocation.CLLocation {
+  public var isValid: Swift.Bool {
+    get
+  }
+  public func speedKmh() -> Swift.String?
+}
 public struct SubscribeResponse : Swift.Codable {
   public let failedSubscriptions: [Swift.String]?
   public let publishers: [LokiSDK.Publisher]?
@@ -265,10 +271,15 @@ public struct LocationInfo : Swift.Codable {
   public let locationId: Swift.String
   public let location: CoreLocation.CLLocation
   public let appMode: LokiSDK.AppMode
+  public init(location: CoreLocation.CLLocation, appMode: LokiSDK.AppMode)
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct LokiLocation {
+  public let lokiId: Swift.String
+  public let location: CoreLocation.CLLocation
+  public let isSimulated: Swift.Bool
+  public let appMode: LokiSDK.AppMode
 }
 public struct LoginRequest : Swift.Codable {
   public let device: LokiSDK.DeviceInfo

@@ -63,7 +63,7 @@ public struct LocationInfo: Codable {
 		case appMode = "appMode"
 	}
 	
-	init(location: CLLocation, appMode: AppMode) {
+	public init(location: CLLocation, appMode: AppMode) {
 		self.locationId = String("LOC-\(UUID())")
 		self.location = location
 		self.appMode = appMode
