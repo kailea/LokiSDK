@@ -1,9 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework
-${BUILT_PRODUCTS_DIR}/AzureIoTUtility/AzureIoTUtility.framework
-${BUILT_PRODUCTS_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework
-${BUILT_PRODUCTS_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework
-${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
-${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL

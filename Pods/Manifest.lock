@@ -20,7 +20,7 @@ PODS:
   - AzureMacroUtils (1.4.0)
   - AzureuMockC (1.4.0):
     - AzureMacroUtils (= 1.4.0)
-  - DeviceKit (5.0.0)
+  - DeviceKit (5.1.0)
   - OpenSSL-Universal (3.1.2000)
   - Swinject (2.8.3)
 
@@ -55,10 +55,10 @@ SPEC CHECKSUMS:
   AzureIoTUtility: 2250cdf4c8a3903af472af92c2ef8c5d4a57cfc6
   AzureMacroUtils: 430d0f0a43baff6504f5254e9cb7e21f868443b4
   AzureuMockC: fcecbb3d7e454e5c4c8a501ce33c332ab83e43d0
-  DeviceKit: 0fd016a2cb67aca17c33dc23171cac270131eb88
+  DeviceKit: bcce5c26d9502e77e3a9fa5d1282877db388d922
   OpenSSL-Universal: 5c78478d4094c38bd85f19f079e364a983d7005d
   Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
 
-PODFILE CHECKSUM: 0fcd91f31adcb1cafd4427442b992b7be8e11637
+PODFILE CHECKSUM: a630dcca91860bd094d4f8c1e04758c2c52eb02c
 
 COCOAPODS: 1.12.1

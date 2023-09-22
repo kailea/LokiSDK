@@ -494,7 +494,6 @@
 		BB144DB43CC6431CB5AC066365BCC85E /* message_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 78456258FB2F0E6C7D15908B083159BB /* message_queue.c */; };
 		BD38865395C2BB7DDE1986C4975CF084 /* dataserializer.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 027B9D17B285BD78089F717EF6660F80 /* dataserializer.h */; };
 		BD550127DD4B8E8635C424AE7D364FEF /* gb_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CE6F91E4115946D020A7DFD19D8E6B /* gb_time.h */; };
-		BDE8E86AA6A6043D3D0DE75FDC9E8F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		BE07062CA35313C9B9029B55C46E71E9 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B497B1647B5798A85F979841D99410 /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE78EC0D7E67788C951CF9B39690C1CF /* uniqueid.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 9F555F19EDB55823F5C154A62913FE93 /* uniqueid.h */; };
 		BEA3350816D1AA39E31EA22978095043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
@@ -504,11 +503,9 @@
 		C06F92E6A69A49195A0DA97E0D1E1115 /* iothub_message.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E2DC94E4A741709A02AACC0BD8554 /* iothub_message.c */; };
 		C0BAA2A7BD9314AD87E5C1191BAE0D0B /* iotdevice.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 8CBB675923F7F2921D8D4FA811E39CFB /* iotdevice.h */; };
 		C21CC2EF5CEA871242A3AB9FB24787BD /* string_token.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B17212059F216DD8D04988DEFF59A0 /* string_token.c */; };
-		C34643812414F56DA283B68DCE5933DA /* Pods-LokiSDK-LokiSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9CAF6D7131632AC639672329835D86 /* Pods-LokiSDK-LokiSDKTests-dummy.m */; };
 		C3555DF324C7322FFF42098564FAABD8 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB64094640BA5EC8D2E31D3349E274 /* Resolver.swift */; };
 		C3F86F04589907B4C821B0A21E28B7CA /* amqp_definitions_target.h in Headers */ = {isa = PBXBuildFile; fileRef = 16212C6554F6123E7D49DCF33C4D76E8 /* amqp_definitions_target.h */; };
 		C41D73D8249522109812ECA551986687 /* iothub_client_ll.h in Headers */ = {isa = PBXBuildFile; fileRef = A18DE2B279ACE5AD37128B2DB7AB90FD /* iothub_client_ll.h */; };
-		C4A3BAB667666A59EB701CF1794F7400 /* Pods-LokiSDK-LokiSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DB9712F5C7F761B76287D3C1C24A11 /* Pods-LokiSDK-LokiSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C50D6DEE9DB33D4CBD5CD118C0F35580 /* amqp_definitions_message_annotations.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = EDF9091614261B5DFE6464A5EF4A4112 /* amqp_definitions_message_annotations.h */; };
 		C52B9D7A64FF5FAAFC28DAB0852E179A /* cbs.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 5774C507422FA45E04D43A5659C41E7B /* cbs.h */; };
 		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48F5EB6597F1C2DA94870077659C31 /* Device.generated.swift */; };
@@ -576,11 +573,11 @@
 		D8F5E32A9DEA454F781B1630EC19D2F5 /* dns_resolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9248A1D3500077D9647A15BA46AC46FB /* dns_resolver.h */; };
 		D9452F2AE0E8E3C6DC724DFD18C6F3CF /* string_tokenizer.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = AD9987E7DC97A2739FCE26C6DB06B637 /* string_tokenizer.h */; };
 		DA157FE06FF0182116E5B8EDA3E226B2 /* vector_types_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D691C246F6865529AE804DD9B72949 /* vector_types_internal.h */; };
-		DAAB13915A3941C79A932F3E53C3E5F9 /* Pods-LokiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C83C78726CEC501231415A4222275F2 /* Pods-LokiSDK-dummy.m */; };
+		DAAB13915A3941C79A932F3E53C3E5F9 /* Pods-LokiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B4D3477B3253F7C8AF10BC2DD15A06 /* Pods-LokiSDK-dummy.m */; };
 		DAC8F337483B667E88661A7E180D5551 /* amqp_definitions_seconds.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 60A8FC4751A2B6D0D10A857527B18DE7 /* amqp_definitions_seconds.h */; };
 		DB688EFDD2DCA176453C8D3DEF129635 /* amqp_definitions_link_error.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 84CF6699E35B0AABC592A0470CB86874 /* amqp_definitions_link_error.h */; };
 		DB8C25B14CDBF279E4BD8714F1EC92DD /* sasl_frame_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = B83DFE3DE7E424D0234BC3A867A83908 /* sasl_frame_codec.h */; };
-		DBE0378A3A0F56896F7141C7C5A8E57F /* Pods-LokiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E443743A9673CFCBBFA6A7F4ADC15165 /* Pods-LokiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE0378A3A0F56896F7141C7C5A8E57F /* Pods-LokiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4672E5D51789214DD4BCD5DFF4DB84 /* Pods-LokiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCB1E9273B13C9895B79C292F4EE64BB /* httpapi.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = CAC80367564BC29D478E52C7452DBD12 /* httpapi.h */; };
 		DCD427AF712381C02FF2F4370E60EB27 /* azure_base64.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 56D427B56A4C3CA0944FC8AE4344BD1D /* azure_base64.h */; };
 		DCDB32D7D4737B7561EFF95564B42231 /* tlsio_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 68961EB58346F393D6C01CC5D36B9287 /* tlsio_options.h */; };
@@ -706,13 +703,6 @@
 			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
 			remoteInfo = AzureIoTuAmqp;
 		};
-		1CE308D88BB5A0042CB0DFFE934599D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
-			remoteInfo = "OpenSSL-Universal";
-		};
 		29341C249A5675094683262CFC353CAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -733,20 +723,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D1622A3A18403322156C6932098E1E28;
 			remoteInfo = AzureMacroUtils;
-		};
-		53448506B8D70AC16795AD4958DB191F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1622A3A18403322156C6932098E1E28;
-			remoteInfo = AzureMacroUtils;
-		};
-		5A2592FF06338F7631B15EC637F7A533 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BD06B5E55D97C27F3898036A0B737B0;
-			remoteInfo = AzureIoTuMqtt;
 		};
 		614A77942E5D708C7CEBFC2B40A0D7B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -797,34 +773,6 @@
 			remoteGlobalIDString = 0F623B6B20ADF25DE20060F87BFF48A3;
 			remoteInfo = AzureIoTUtility;
 		};
-		7A0B6558BD0320C51F5B313D80774CED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98B4B79B09699E9CB8EA1FD2D3A6DD5C;
-			remoteInfo = AzureIoTHubClient;
-		};
-		7E6622488188FD535A015A680DB0213F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33A34AAD0DA2A9C4BF04322A631A7795;
-			remoteInfo = AzureuMockC;
-		};
-		815A1743099B225AEB40F36AE563ADA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		881050FC3D55A0F1290EEAFCE5D93C6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
-			remoteInfo = AzureIoTuAmqp;
-		};
 		8D02DB2EC544B59DC2BDD7650A483A44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -846,33 +794,12 @@
 			remoteGlobalIDString = 33A34AAD0DA2A9C4BF04322A631A7795;
 			remoteInfo = AzureuMockC;
 		};
-		AE6606D1BF9C5B880D3E503ED5EFEE69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F623B6B20ADF25DE20060F87BFF48A3;
-			remoteInfo = AzureIoTUtility;
-		};
 		BDD83995C46BEFAC70726D36157290D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1EEBC1B2152873148B7D459CD82628E9;
 			remoteInfo = AzureIoTuAmqp;
-		};
-		C0F1FAE19EBD3831C61AF3E97F1A362D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
-			remoteInfo = DeviceKit;
-		};
-		CE25B308E87DF68824A07B82A5CBE4C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
-			remoteInfo = Swinject;
 		};
 		D27E37DD3283DA2DC9E784C864A25B7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1171,7 +1098,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		001939205B0069C3279D769E22929198 /* Pods-LokiSDK-LokiSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LokiSDK-LokiSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0127863AEF8E1B0548A803375AA02E3E /* uuid.c */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.c; path = src/uuid.c; sourceTree = "<group>"; };
 		027B9D17B285BD78089F717EF6660F80 /* dataserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dataserializer.h; path = inc/dataserializer.h; sourceTree = "<group>"; };
 		02AA652FB71714DA5837866601913EC3 /* amqpvalue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqpvalue.h; path = inc/azure_uamqp_c/amqpvalue.h; sourceTree = "<group>"; };
@@ -1196,7 +1122,6 @@
 		07F1A8F4D84E80AAC42DC03BE3E8252B /* connection_string_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = connection_string_parser.h; path = inc/azure_c_shared_utility/connection_string_parser.h; sourceTree = "<group>"; };
 		082BC189CA8BD9B1CE9FFD3EA85A0CD0 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		089CAC1E657346F8D44EA0F153EB9AD6 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		08A9CF912A1D1CA455160182F673073D /* Pods-LokiSDK-LokiSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-LokiSDKTests-Info.plist"; sourceTree = "<group>"; };
 		09633F887753A1BD39CA279E10BFF04E /* iothubtransport_amqp_cbs_auth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_cbs_auth.c; path = iothub_client/src/iothubtransport_amqp_cbs_auth.c; sourceTree = "<group>"; };
 		097C646F530521269A289515A3D0C047 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
 		0A568D24E3340F99B8345593646A5AD0 /* amqp_definitions_modified.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_modified.h; path = inc/azure_uamqp_c/amqp_definitions_modified.h; sourceTree = "<group>"; };
@@ -1209,15 +1134,16 @@
 		0D24E4BC08C6BC882AFA14DA9B29DD01 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		0FA72A2490F8FF9B88E6232BBEC40B76 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		10EADD85B05A68D4E6C46BA2FBDFE7CE /* gb_rand.c */ = {isa = PBXFileReference; includeInIndex = 1; name = gb_rand.c; path = src/gb_rand.c; sourceTree = "<group>"; };
+		11218622D0913E444CDF140C01185B07 /* Pods-LokiSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LokiSDK.modulemap"; sourceTree = "<group>"; };
 		11543609C4CF7EF0611E4961130379CE /* memory_data.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memory_data.c; path = src/memory_data.c; sourceTree = "<group>"; };
 		11B893AEFCF27815A26EBF22DB19A617 /* parson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parson.h; path = inc/parson.h; sourceTree = "<group>"; };
-		11C7F2A1F8656A1D86801BAF341EEEE2 /* Pods-LokiSDK-LokiSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-LokiSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		11CF81A0E99DE8A5AE715C7436C097CD /* session.c */ = {isa = PBXFileReference; includeInIndex = 1; name = session.c; path = src/session.c; sourceTree = "<group>"; };
 		120D1A6D92255535B0A35BE90824B6E1 /* doublylinkedlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doublylinkedlist.h; path = inc/azure_c_shared_utility/doublylinkedlist.h; sourceTree = "<group>"; };
 		1232D718D9DAC697AD7FC9E981395D3B /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		124B9C32DACBAC246220F75DE0492468 /* constbuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = constbuffer.c; path = src/constbuffer.c; sourceTree = "<group>"; };
 		130A64A23CDF8B97D920D79916B3CFBC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		14177E2B7237408225EC87B4A84D0E8E /* blob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blob.h; path = inc/internal/blob.h; sourceTree = "<group>"; };
+		1439C8FD04462D95BEFBC2EE29E814D4 /* Pods-LokiSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK.release.xcconfig"; sourceTree = "<group>"; };
 		14692E5BA6B42D0A572AB236E79866BB /* saslclientio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = saslclientio.h; path = inc/azure_uamqp_c/saslclientio.h; sourceTree = "<group>"; };
 		14CA18E517DF51D87453198CC75888D2 /* optionhandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = optionhandler.h; path = inc/azure_c_shared_utility/optionhandler.h; sourceTree = "<group>"; };
 		16212C6554F6123E7D49DCF33C4D76E8 /* amqp_definitions_target.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_target.h; path = inc/azure_uamqp_c/amqp_definitions_target.h; sourceTree = "<group>"; };
@@ -1240,12 +1166,9 @@
 		1AD7B9C4ECFC978AE6325153848EB490 /* mqtt_message.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mqtt_message.c; path = src/mqtt_message.c; sourceTree = "<group>"; };
 		1B052793A080F72AE72E5CC482951178 /* amqp_definitions_sequence_no.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sequence_no.h; path = inc/azure_uamqp_c/amqp_definitions_sequence_no.h; sourceTree = "<group>"; };
 		1B18BEC0F62375A134436E2098F0D415 /* amqp_definitions_delivery_number.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_delivery_number.h; path = inc/azure_uamqp_c/amqp_definitions_delivery_number.h; sourceTree = "<group>"; };
-		1C83C78726CEC501231415A4222275F2 /* Pods-LokiSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LokiSDK-dummy.m"; sourceTree = "<group>"; };
 		1C9B34347D70103BCF56756CC8FA06D3 /* amqp_definitions_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_error.h; path = inc/azure_uamqp_c/amqp_definitions_error.h; sourceTree = "<group>"; };
-		1CD3937C09C37F909C2CB624C7040A40 /* Pods-LokiSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D3FF5328006D8BC2A35D6389A58E9E0 /* ws_url.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ws_url.c; path = src/ws_url.c; sourceTree = "<group>"; };
 		1DAF4DF5138BDBA64E640C16C1CF1CBF /* sasl_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sasl_frame_codec.c; path = src/sasl_frame_codec.c; sourceTree = "<group>"; };
-		1E9CAF6D7131632AC639672329835D86 /* Pods-LokiSDK-LokiSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LokiSDK-LokiSDKTests-dummy.m"; sourceTree = "<group>"; };
 		1F1B1F6154FC9037DD578D3865043F5F /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
 		21C35DC438CD810B741C136FEE072C4B /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
 		22A77C39C47ACBEF339E50CDDCD43DAD /* amqp_definitions_message_id_uuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_id_uuid.h; path = inc/azure_uamqp_c/amqp_definitions_message_id_uuid.h; sourceTree = "<group>"; };
@@ -1285,6 +1208,7 @@
 		35A62276E9A69021FB8A01D50B338963 /* doublylinkedlist.c */ = {isa = PBXFileReference; includeInIndex = 1; name = doublylinkedlist.c; path = src/doublylinkedlist.c; sourceTree = "<group>"; };
 		35B497B1647B5798A85F979841D99410 /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
 		3776D52CC81A018A0D13E6310D84AC33 /* session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = session.h; path = inc/azure_uamqp_c/session.h; sourceTree = "<group>"; };
+		3849CEE4CE28F4048A029F483B08618F /* Pods-LokiSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		3956F378FF7296C8209A1AD387F6A117 /* iothub_client_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_version.h; path = inc/iothub_client_version.h; sourceTree = "<group>"; };
 		3ACB54EB119DB8E6E2267BF12E2BDCBA /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		3AF09D37A5F9609029281083A1C6C28F /* amqp_definitions_message_format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_format.h; path = inc/azure_uamqp_c/amqp_definitions_message_format.h; sourceTree = "<group>"; };
@@ -1326,7 +1250,6 @@
 		4F093C94408D7EE184E0FFD258CF6598 /* const_defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = const_defines.h; path = inc/azure_c_shared_utility/const_defines.h; sourceTree = "<group>"; };
 		4F8AF1E3C4E9F2F4B3B9EE326EAA79C1 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/RequestCompression.swift; sourceTree = "<group>"; };
 		4FAA1057C44AE6227BB6C93DCC8C29D2 /* messaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = messaging.h; path = inc/azure_uamqp_c/messaging.h; sourceTree = "<group>"; };
-		507F7F605075E599033C06E726FF9614 /* Pods-LokiSDK-LokiSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LokiSDK-LokiSDKTests-frameworks.sh"; sourceTree = "<group>"; };
 		50EB64094640BA5EC8D2E31D3349E274 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		5129D162CBA89DFE740B9373848BCBF1 /* iothubtransportmqtt_websockets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransportmqtt_websockets.h; path = inc/iothubtransportmqtt_websockets.h; sourceTree = "<group>"; };
 		5151CB59B5E5B3E6BE542388AEAA7570 /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
@@ -1396,6 +1319,7 @@
 		74F1298CA8C8A1FBCDBF8A5E2F69E0C0 /* sasl_anonymous.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sasl_anonymous.h; path = inc/azure_uamqp_c/sasl_anonymous.h; sourceTree = "<group>"; };
 		7570378015C59D0C4DF63A39DBB7D578 /* iothubtransportamqp.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportamqp.c; path = iothub_client/src/iothubtransportamqp.c; sourceTree = "<group>"; };
 		7587A205ED1127317ACBB31F1B8BF8D0 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = src/hmac.c; sourceTree = "<group>"; };
+		75B4D3477B3253F7C8AF10BC2DD15A06 /* Pods-LokiSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LokiSDK-dummy.m"; sourceTree = "<group>"; };
 		76D2A7DDDA92D92E91C7F55B7DA81079 /* linux_time.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linux_time.c; path = adapters/linux_time.c; sourceTree = "<group>"; };
 		76FB9DB0A4D85340D4237D8948E1CC01 /* amqp_definitions_flow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_flow.h; path = inc/azure_uamqp_c/amqp_definitions_flow.h; sourceTree = "<group>"; };
 		77D3B7259690AE13BAD84EF5E91CC491 /* AzureIoTuAmqp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTuAmqp-dummy.m"; sourceTree = "<group>"; };
@@ -1407,7 +1331,6 @@
 		7A58642D03CB4D8CCCD330A4F42ACA24 /* amqp_definitions_filter_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_filter_set.h; path = inc/azure_uamqp_c/amqp_definitions_filter_set.h; sourceTree = "<group>"; };
 		7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTuMqtt; path = AzureIoTuMqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A97E34BE6F3102D51D158CD8B868774 /* strings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strings.h; path = inc/azure_c_shared_utility/strings.h; sourceTree = "<group>"; };
-		7A9DBF9CC1CF15FE0BEC870FCDE00505 /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK-LokiSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B975D262BA1DAA4D230F5FFF05D25B2 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		7C8A6CE707ED7836EAAB90BDDDC981CE /* header_detect_io.c */ = {isa = PBXFileReference; includeInIndex = 1; name = header_detect_io.c; path = src/header_detect_io.c; sourceTree = "<group>"; };
 		7CA7C1F433DA8D6B9E40DFEF50FC8EB6 /* amqp_frame_codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_frame_codec.h; path = inc/azure_uamqp_c/amqp_frame_codec.h; sourceTree = "<group>"; };
@@ -1425,6 +1348,7 @@
 		846C0C3B9E15663874E4077198560B51 /* iothub_client_authorization.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_authorization.c; path = iothub_client/src/iothub_client_authorization.c; sourceTree = "<group>"; };
 		848CF7C3F0AEF7D3A43A3EBD75F74B21 /* amqp_definitions_sasl_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_code.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_code.h; sourceTree = "<group>"; };
 		84CF6699E35B0AABC592A0470CB86874 /* amqp_definitions_link_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_link_error.h; path = inc/azure_uamqp_c/amqp_definitions_link_error.h; sourceTree = "<group>"; };
+		86128D4B9E915217EF6A1237F4391BA1 /* Pods-LokiSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		863CDB710EEA60A18007ED95E18C9F16 /* urlencode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = urlencode.h; path = inc/azure_c_shared_utility/urlencode.h; sourceTree = "<group>"; };
 		86AEFBCAE8AE61758AF763E627C0E057 /* iothub_transport_ll_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_transport_ll_private.h; path = inc/internal/iothub_transport_ll_private.h; sourceTree = "<group>"; };
 		8772151456DA4B3473255BE7E4F0C634 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
@@ -1463,7 +1387,6 @@
 		9248A1D3500077D9647A15BA46AC46FB /* dns_resolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dns_resolver.h; path = inc/azure_c_shared_utility/dns_resolver.h; sourceTree = "<group>"; };
 		9260753500B3D40A21614DCF6537AE7D /* linux_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linux_time.h; path = inc/linux_time.h; sourceTree = "<group>"; };
 		93952B7540A80577DCE8A4ED714D4246 /* iothub_client_edge.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_edge.c; path = iothub_client/src/iothub_client_edge.c; sourceTree = "<group>"; };
-		943BF18103DF96AB6D1B1E755C5945D2 /* Pods-LokiSDK-LokiSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LokiSDK-LokiSDKTests.modulemap"; sourceTree = "<group>"; };
 		944D7E464F597CF4975F1FD83F22E2D0 /* amqp_definitions_sasl_mechanisms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_sasl_mechanisms.h; path = inc/azure_uamqp_c/amqp_definitions_sasl_mechanisms.h; sourceTree = "<group>"; };
 		9648B2AAE0B26DA86145A67C7A3AB333 /* iothubtransportamqp_websockets.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransportamqp_websockets.c; path = iothub_client/src/iothubtransportamqp_websockets.c; sourceTree = "<group>"; };
 		964DB6B37601EEF9DA26125A845138F5 /* hmacsha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmacsha256.c; path = src/hmacsha256.c; sourceTree = "<group>"; };
@@ -1505,7 +1428,6 @@
 		A7AE2ACE5B2D9325589A45F1DE02C9FA /* schema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schema.h; path = inc/schema.h; sourceTree = "<group>"; };
 		A7BD872DB17D9305BA7C723BCF129F6E /* iothubtransport_amqp_telemetry_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_telemetry_messenger.c; path = iothub_client/src/iothubtransport_amqp_telemetry_messenger.c; sourceTree = "<group>"; };
 		A8B17212059F216DD8D04988DEFF59A0 /* string_token.c */ = {isa = PBXFileReference; includeInIndex = 1; name = string_token.c; path = src/string_token.c; sourceTree = "<group>"; };
-		A8DB9712F5C7F761B76287D3C1C24A11 /* Pods-LokiSDK-LokiSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LokiSDK-LokiSDKTests-umbrella.h"; sourceTree = "<group>"; };
 		A97E56CCCDEBBC555862AC153005853A /* amqp_definitions_source.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_source.h; path = inc/azure_uamqp_c/amqp_definitions_source.h; sourceTree = "<group>"; };
 		A9DFFB364389B7C7CFA99A5A49B1D1C3 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = inc/azure_c_shared_utility/platform.h; sourceTree = "<group>"; };
 		AA5DD8C5480C89076993EA93996CBD19 /* amqp_definitions_header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_header.h; path = inc/azure_uamqp_c/amqp_definitions_header.h; sourceTree = "<group>"; };
@@ -1558,7 +1480,6 @@
 		C4A630A3EBFEE9C8DD8B54FA0D893DA2 /* iothub_client_diagnostic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_diagnostic.h; path = inc/internal/iothub_client_diagnostic.h; sourceTree = "<group>"; };
 		C54A53E889B3E13046078171FF738A52 /* azure_base64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = azure_base64.c; path = src/azure_base64.c; sourceTree = "<group>"; };
 		C5E3DF63B6CD8AB1DE296323F96CD0C6 /* AzureIoTuMqtt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AzureIoTuMqtt-Info.plist"; sourceTree = "<group>"; };
-		C7506FDA2783C6446F5926CD82186B4F /* Pods-LokiSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-Info.plist"; sourceTree = "<group>"; };
 		C80671DA8C0BCC5DDDD0806DF5258A33 /* xio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xio.h; path = inc/azure_c_shared_utility/xio.h; sourceTree = "<group>"; };
 		C847B52D598E4D021C6D75A1C6F3CFCF /* blob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blob.c; path = iothub_client/src/blob.c; sourceTree = "<group>"; };
 		C8D431AFD19F09A25D81ADC027C925C3 /* amqp_management.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_management.h; path = inc/azure_uamqp_c/amqp_management.h; sourceTree = "<group>"; };
@@ -1572,7 +1493,6 @@
 		CC3BD3B83163699E585F7B732C6B0093 /* iotdevice.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iotdevice.c; path = serializer/src/iotdevice.c; sourceTree = "<group>"; };
 		CC54D6EB9AE885E1346D872FC9E08D7D /* AzureIoTHubClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTHubClient-prefix.pch"; sourceTree = "<group>"; };
 		CCDFD96E89B6E01C7F378A6637A14C99 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
-		CD1068D8A7AC0AA5C3720C330D189058 /* Pods-LokiSDK-LokiSDKTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LokiSDK-LokiSDKTests"; path = Pods_LokiSDK_LokiSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3CA23D252DBF80C2E139E7A62988F2 /* amqp_definitions_ietf_language_tag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_ietf_language_tag.h; path = inc/azure_uamqp_c/amqp_definitions_ietf_language_tag.h; sourceTree = "<group>"; };
 		CD7886BBF94A350881CC336A242E52A3 /* message_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_queue.h; path = inc/internal/message_queue.h; sourceTree = "<group>"; };
 		CDA45CAF534B923D726239EC68E830E6 /* message_sender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = message_sender.h; path = inc/azure_uamqp_c/message_sender.h; sourceTree = "<group>"; };
@@ -1614,7 +1534,6 @@
 		E0E7FAF85EDDF95BC9B05F53EB9BB35A /* iothubtransport_amqp_telemetry_messenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothubtransport_amqp_telemetry_messenger.h; path = inc/internal/iothubtransport_amqp_telemetry_messenger.h; sourceTree = "<group>"; };
 		E28063A915B1425B8BF0D0AE410A197E /* iothubtransport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport.c; path = iothub_client/src/iothubtransport.c; sourceTree = "<group>"; };
 		E346F0FE4552F0AA21647212C21EC537 /* mqtt_client.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mqtt_client.c; path = src/mqtt_client.c; sourceTree = "<group>"; };
-		E443743A9673CFCBBFA6A7F4ADC15165 /* Pods-LokiSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LokiSDK-umbrella.h"; sourceTree = "<group>"; };
 		E4864E1474CB9F03DE8004533CDF816F /* serializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serializer.h; path = inc/serializer.h; sourceTree = "<group>"; };
 		E5374F6336C0732ED04A4D599B5D0FB5 /* wsio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wsio.h; path = inc/azure_c_shared_utility/wsio.h; sourceTree = "<group>"; };
 		E558ADB9F7913B35EFD0607AF2E68A60 /* vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vector.h; path = inc/azure_c_shared_utility/vector.h; sourceTree = "<group>"; };
@@ -1636,17 +1555,14 @@
 		E9ED7F0ADCFBCDEE32AA91E4E5FFF2F9 /* gballoc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gballoc.h; path = inc/azure_c_shared_utility/gballoc.h; sourceTree = "<group>"; };
 		EBCEAFC1AFB903D7A24E35F665DE38B1 /* uws_frame_encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uws_frame_encoder.h; path = inc/azure_c_shared_utility/uws_frame_encoder.h; sourceTree = "<group>"; };
 		EC40E016FCF66EF5CE8B480F20402935 /* AzureIoTuMqtt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AzureIoTuMqtt-dummy.m"; sourceTree = "<group>"; };
-		EC9F560868DEF4E1C44EDCF017844AF6 /* Pods-LokiSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		ED602E5B196633BA9136A6B70F7093DA /* amqp_definitions_amqp_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_amqp_error.h; path = inc/azure_uamqp_c/amqp_definitions_amqp_error.h; sourceTree = "<group>"; };
 		EDCD56E733DCEBC1A8BD792473CC698F /* AzureIoTuAmqp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AzureIoTuAmqp-prefix.pch"; sourceTree = "<group>"; };
 		EDF9091614261B5DFE6464A5EF4A4112 /* amqp_definitions_message_annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_message_annotations.h; path = inc/azure_uamqp_c/amqp_definitions_message_annotations.h; sourceTree = "<group>"; };
-		EE05067217EB6B0BB4572CB52029BC3A /* Pods-LokiSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LokiSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE31A6F19FC1B51F18C7B84754C71705 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK-LokiSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		F0D484F5F9E1A3BC20104AEE950AA8F8 /* AzureIoTHubClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureIoTHubClient.release.xcconfig; sourceTree = "<group>"; };
 		F127C7A906B234B1E4BF0ACAB4E727EE /* consolelogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = consolelogger.h; path = inc/azure_c_shared_utility/consolelogger.h; sourceTree = "<group>"; };
 		F1791DD7A0BDBB9EF8971206E0DF3B45 /* urlencode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = urlencode.c; path = src/urlencode.c; sourceTree = "<group>"; };
+		F2E57F5ACDAB7A5B14BB25778EDD6B95 /* Pods-LokiSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LokiSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AzureIoTuAmqp; path = AzureIoTuAmqp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F38197219C10CB96998BB8AA0AE93EA8 /* Pods-LokiSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LokiSDK.release.xcconfig"; sourceTree = "<group>"; };
 		F38DD271E8DE2EDF48A62298B144D0C1 /* iothub_device_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_device_client.h; path = inc/iothub_device_client.h; sourceTree = "<group>"; };
 		F3E43F7489F2834FDE43EE52DC9A7A1C /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		F4EB77F28C3EE860A0C569F96AB5BE76 /* ws_url.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ws_url.h; path = inc/azure_c_shared_utility/ws_url.h; sourceTree = "<group>"; };
@@ -1661,10 +1577,11 @@
 		F9493892B3EAE3CA899B258B59C4F961 /* xio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xio.c; path = src/xio.c; sourceTree = "<group>"; };
 		FA16EA5ABA2DDE327CA17AB1D2E8E2A6 /* sastoken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sastoken.h; path = inc/azure_c_shared_utility/sastoken.h; sourceTree = "<group>"; };
 		FB1ACA5AE8B85CA90C8519219DD01AA5 /* map.c */ = {isa = PBXFileReference; includeInIndex = 1; name = map.c; path = src/map.c; sourceTree = "<group>"; };
+		FB4672E5D51789214DD4BCD5DFF4DB84 /* Pods-LokiSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LokiSDK-umbrella.h"; sourceTree = "<group>"; };
 		FBFB98D87E86EF50D84BA9EE93282EE5 /* iothub_client_ll_uploadtoblob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_client_ll_uploadtoblob.c; path = iothub_client/src/iothub_client_ll_uploadtoblob.c; sourceTree = "<group>"; };
-		FBFEF0F7C0E47A59C8D97AD968A011B5 /* Pods-LokiSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LokiSDK.modulemap"; sourceTree = "<group>"; };
 		FC3F8D2F55B4161C980A88E038693DE0 /* httpapiexsas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = httpapiexsas.h; path = inc/azure_c_shared_utility/httpapiexsas.h; sourceTree = "<group>"; };
 		FC5645C089FAED255F5D2A0D5A58B925 /* AzureuMockC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AzureuMockC.debug.xcconfig; sourceTree = "<group>"; };
+		FCED45FCFD4DE4C92535E5FEF3509F42 /* Pods-LokiSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LokiSDK-Info.plist"; sourceTree = "<group>"; };
 		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FDC5105D4B605DACD11AC9CFDD571106 /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
 		FE6EC342C99840DCEF8404C1180CB31E /* httpapiexsas.c */ = {isa = PBXFileReference; includeInIndex = 1; name = httpapiexsas.c; path = src/httpapiexsas.c; sourceTree = "<group>"; };
@@ -1672,14 +1589,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A2846106CD6BBC06D4BF84E7CF9D961 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDE8E86AA6A6043D3D0DE75FDC9E8F11 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		27505BDB27F5AB3ABD4C97513CA6D4B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1909,22 +1818,6 @@
 			path = Swinject;
 			sourceTree = "<group>";
 		};
-		11DAC941A3BDD50DC0DF5F9FE8826B96 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient */,
-				F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp */,
-				7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt */,
-				DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility */,
-				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
-				6D3A8FAF3066AB5F81E08279AFDEF1DC /* Pods-LokiSDK */,
-				CD1068D8A7AC0AA5C3720C330D189058 /* Pods-LokiSDK-LokiSDKTests */,
-				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1946,6 +1839,29 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DeviceKit";
+			sourceTree = "<group>";
+		};
+		44316215814A80AFE068F0966B8A665F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CD79A2763BBF940C8E156DC7DDA924 /* Pods-LokiSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		500507B6235EFB7E5B819C68E18482DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				B30EC1C72B4E545F5BAF315C8E18153D /* AzureIoTHubClient */,
+				F3745DFD6AD6D59F624ED61D1FE8F548 /* AzureIoTuAmqp */,
+				7A7B8C008D13821ED2625B12C4F78450 /* AzureIoTuMqtt */,
+				DF72FCB9046DA75B164B325720F6156E /* AzureIoTUtility */,
+				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
+				6D3A8FAF3066AB5F81E08279AFDEF1DC /* Pods-LokiSDK */,
+				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		592E0563AD2CEF3A1EE4509ECCDC4070 /* Support Files */ = {
@@ -2190,32 +2106,6 @@
 			path = AzureIoTuAmqp;
 			sourceTree = "<group>";
 		};
-		97BBC0A079CF14DF975F7AB633653AF0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BEF68D7BDAC7A647BD6DEB467DFDB292 /* Pods-LokiSDK */,
-				98E723188B2C596CE544B90BDE42CE32 /* Pods-LokiSDK-LokiSDKTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		98E723188B2C596CE544B90BDE42CE32 /* Pods-LokiSDK-LokiSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				943BF18103DF96AB6D1B1E755C5945D2 /* Pods-LokiSDK-LokiSDKTests.modulemap */,
-				001939205B0069C3279D769E22929198 /* Pods-LokiSDK-LokiSDKTests-acknowledgements.markdown */,
-				11C7F2A1F8656A1D86801BAF341EEEE2 /* Pods-LokiSDK-LokiSDKTests-acknowledgements.plist */,
-				1E9CAF6D7131632AC639672329835D86 /* Pods-LokiSDK-LokiSDKTests-dummy.m */,
-				507F7F605075E599033C06E726FF9614 /* Pods-LokiSDK-LokiSDKTests-frameworks.sh */,
-				08A9CF912A1D1CA455160182F673073D /* Pods-LokiSDK-LokiSDKTests-Info.plist */,
-				A8DB9712F5C7F761B76287D3C1C24A11 /* Pods-LokiSDK-LokiSDKTests-umbrella.h */,
-				7A9DBF9CC1CF15FE0BEC870FCDE00505 /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */,
-				EE31A6F19FC1B51F18C7B84754C71705 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */,
-			);
-			name = "Pods-LokiSDK-LokiSDKTests";
-			path = "Target Support Files/Pods-LokiSDK-LokiSDKTests";
-			sourceTree = "<group>";
-		};
 		A7D1BE33B07CE324C66CC5B228408EE7 /* DeviceKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -2288,30 +2178,14 @@
 			path = "../Target Support Files/AzureIoTHubClient";
 			sourceTree = "<group>";
 		};
-		BEF68D7BDAC7A647BD6DEB467DFDB292 /* Pods-LokiSDK */ = {
-			isa = PBXGroup;
-			children = (
-				FBFEF0F7C0E47A59C8D97AD968A011B5 /* Pods-LokiSDK.modulemap */,
-				EE05067217EB6B0BB4572CB52029BC3A /* Pods-LokiSDK-acknowledgements.markdown */,
-				1CD3937C09C37F909C2CB624C7040A40 /* Pods-LokiSDK-acknowledgements.plist */,
-				1C83C78726CEC501231415A4222275F2 /* Pods-LokiSDK-dummy.m */,
-				C7506FDA2783C6446F5926CD82186B4F /* Pods-LokiSDK-Info.plist */,
-				E443743A9673CFCBBFA6A7F4ADC15165 /* Pods-LokiSDK-umbrella.h */,
-				EC9F560868DEF4E1C44EDCF017844AF6 /* Pods-LokiSDK.debug.xcconfig */,
-				F38197219C10CB96998BB8AA0AE93EA8 /* Pods-LokiSDK.release.xcconfig */,
-			);
-			name = "Pods-LokiSDK";
-			path = "Target Support Files/Pods-LokiSDK";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				686BF4543F27CA48BB99CE927191F66F /* Pods */,
-				11DAC941A3BDD50DC0DF5F9FE8826B96 /* Products */,
-				97BBC0A079CF14DF975F7AB633653AF0 /* Targets Support Files */,
+				500507B6235EFB7E5B819C68E18482DC /* Products */,
+				44316215814A80AFE068F0966B8A665F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2337,6 +2211,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AzureIoTuMqtt";
+			sourceTree = "<group>";
+		};
+		E6CD79A2763BBF940C8E156DC7DDA924 /* Pods-LokiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				11218622D0913E444CDF140C01185B07 /* Pods-LokiSDK.modulemap */,
+				F2E57F5ACDAB7A5B14BB25778EDD6B95 /* Pods-LokiSDK-acknowledgements.markdown */,
+				3849CEE4CE28F4048A029F483B08618F /* Pods-LokiSDK-acknowledgements.plist */,
+				75B4D3477B3253F7C8AF10BC2DD15A06 /* Pods-LokiSDK-dummy.m */,
+				FCED45FCFD4DE4C92535E5FEF3509F42 /* Pods-LokiSDK-Info.plist */,
+				FB4672E5D51789214DD4BCD5DFF4DB84 /* Pods-LokiSDK-umbrella.h */,
+				86128D4B9E915217EF6A1237F4391BA1 /* Pods-LokiSDK.debug.xcconfig */,
+				1439C8FD04462D95BEFBC2EE29E814D4 /* Pods-LokiSDK.release.xcconfig */,
+			);
+			name = "Pods-LokiSDK";
+			path = "Target Support Files/Pods-LokiSDK";
 			sourceTree = "<group>";
 		};
 		EBC427AF667CD8213C435FD9741862F3 /* AzureMacroUtils */ = {
@@ -2601,14 +2491,6 @@
 			files = (
 				BE07062CA35313C9B9029B55C46E71E9 /* Swinject.h in Headers */,
 				7D3A1E781C20AB061AA941CF3A9DEC0A /* Swinject-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43CE35D41C4F607C37D115D67A67EE09 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4A3BAB667666A59EB701CF1794F7400 /* Pods-LokiSDK-LokiSDKTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2928,34 +2810,6 @@
 			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */;
 			productType = "com.apple.product-type.framework";
 		};
-		8F8468CC7D57705096F20D1C0C1641F6 /* Pods-LokiSDK-LokiSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E76EE46011DD45E30F98316E993E7843 /* Build configuration list for PBXNativeTarget "Pods-LokiSDK-LokiSDKTests" */;
-			buildPhases = (
-				43CE35D41C4F607C37D115D67A67EE09 /* Headers */,
-				9D7F01896E62E4A02EDDF1C7DF17898C /* Sources */,
-				1A2846106CD6BBC06D4BF84E7CF9D961 /* Frameworks */,
-				2B4EDD943AA64EE73E548A26E7ABA314 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C34D2DB8AA04ACB25E7B0D39D772C1EA /* PBXTargetDependency */,
-				73CE4D902BB5B17ACB94C29FFF5BBB2A /* PBXTargetDependency */,
-				EA2F365B281B4619B536270124DD699A /* PBXTargetDependency */,
-				8C407A172478D5394F51957515963B83 /* PBXTargetDependency */,
-				41ACF97D9B099536BE870D6D6EDD81A0 /* PBXTargetDependency */,
-				83E8CE29BC102048289FA6D93BCFE3A1 /* PBXTargetDependency */,
-				07DF687BE98BB4D3E08F8A9B7F9E2BE5 /* PBXTargetDependency */,
-				59DB4DCBBA16647113183EF5B9FBCE8B /* PBXTargetDependency */,
-				129FA5555FF69519F5D99D6788B27FEF /* PBXTargetDependency */,
-				9D11BD0AC24936B26CC101181FA71069 /* PBXTargetDependency */,
-			);
-			name = "Pods-LokiSDK-LokiSDKTests";
-			productName = Pods_LokiSDK_LokiSDKTests;
-			productReference = CD1068D8A7AC0AA5C3720C330D189058 /* Pods-LokiSDK-LokiSDKTests */;
-			productType = "com.apple.product-type.framework";
-		};
 		98B4B79B09699E9CB8EA1FD2D3A6DD5C /* AzureIoTHubClient */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A077CCFD879366656364E61AB3BB8EB /* Build configuration list for PBXNativeTarget "AzureIoTHubClient" */;
@@ -3017,7 +2871,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 11DAC941A3BDD50DC0DF5F9FE8826B96 /* Products */;
+			productRefGroup = 500507B6235EFB7E5B819C68E18482DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -3031,20 +2885,12 @@
 				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
 				075E473A272D4558DCFE9A35749B5D5B /* Pods-LokiSDK */,
-				8F8468CC7D57705096F20D1C0C1641F6 /* Pods-LokiSDK-LokiSDKTests */,
 				46065AF968A5A92D450BB21F7F24367D /* Swinject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B4EDD943AA64EE73E548A26E7ABA314 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		565FD2058706F22D2347B30C65280F30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3380,14 +3226,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D7F01896E62E4A02EDDF1C7DF17898C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C34643812414F56DA283B68DCE5933DA /* Pods-LokiSDK-LokiSDKTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3467,23 +3305,11 @@
 			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
 			targetProxy = 7361504E4EF5E5E522F8E198DF7C374A /* PBXContainerItemProxy */;
 		};
-		07DF687BE98BB4D3E08F8A9B7F9E2BE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureuMockC;
-			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
-			targetProxy = 7E6622488188FD535A015A680DB0213F /* PBXContainerItemProxy */;
-		};
 		08AFB0267B51543C219275EFA2A1C9B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureuMockC;
 			target = 33A34AAD0DA2A9C4BF04322A631A7795 /* AzureuMockC */;
 			targetProxy = 614A77942E5D708C7CEBFC2B40A0D7B9 /* PBXContainerItemProxy */;
-		};
-		129FA5555FF69519F5D99D6788B27FEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OpenSSL-Universal";
-			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = 1CE308D88BB5A0042CB0DFFE934599D2 /* PBXContainerItemProxy */;
 		};
 		12BD9D611615F80382345A71C8ED2FA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3521,12 +3347,6 @@
 			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
 			targetProxy = F6C705B6E967818A858298E60EFB3AF8 /* PBXContainerItemProxy */;
 		};
-		41ACF97D9B099536BE870D6D6EDD81A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTuMqtt;
-			target = 0BD06B5E55D97C27F3898036A0B737B0 /* AzureIoTuMqtt */;
-			targetProxy = 5A2592FF06338F7631B15EC637F7A533 /* PBXContainerItemProxy */;
-		};
 		421467D0E5198F06685865C8BC04D7D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureIoTHubClient;
@@ -3538,12 +3358,6 @@
 			name = AzureIoTuMqtt;
 			target = 0BD06B5E55D97C27F3898036A0B737B0 /* AzureIoTuMqtt */;
 			targetProxy = EE11D62B728304839CB633B3A8FF544F /* PBXContainerItemProxy */;
-		};
-		59DB4DCBBA16647113183EF5B9FBCE8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DeviceKit;
-			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
-			targetProxy = C0F1FAE19EBD3831C61AF3E97F1A362D /* PBXContainerItemProxy */;
 		};
 		5D25B9EA67E50D2F1491139FE0336F06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3563,35 +3377,11 @@
 			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
 			targetProxy = 6946A3EC75B114F913E83CD0019636DD /* PBXContainerItemProxy */;
 		};
-		73CE4D902BB5B17ACB94C29FFF5BBB2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTHubClient;
-			target = 98B4B79B09699E9CB8EA1FD2D3A6DD5C /* AzureIoTHubClient */;
-			targetProxy = 7A0B6558BD0320C51F5B313D80774CED /* PBXContainerItemProxy */;
-		};
-		83E8CE29BC102048289FA6D93BCFE3A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureMacroUtils;
-			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
-			targetProxy = 53448506B8D70AC16795AD4958DB191F /* PBXContainerItemProxy */;
-		};
 		88507A22622D46B480B95A85485AABDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AzureMacroUtils;
 			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
 			targetProxy = 29341C249A5675094683262CFC353CAA /* PBXContainerItemProxy */;
-		};
-		8C407A172478D5394F51957515963B83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTuAmqp;
-			target = 1EEBC1B2152873148B7D459CD82628E9 /* AzureIoTuAmqp */;
-			targetProxy = 881050FC3D55A0F1290EEAFCE5D93C6C /* PBXContainerItemProxy */;
-		};
-		9D11BD0AC24936B26CC101181FA71069 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Swinject;
-			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
-			targetProxy = CE25B308E87DF68824A07B82A5CBE4C3 /* PBXContainerItemProxy */;
 		};
 		A37DE70CCF9BEF4974794E7B0D7C4D57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3604,12 +3394,6 @@
 			name = AzureIoTuAmqp;
 			target = 1EEBC1B2152873148B7D459CD82628E9 /* AzureIoTuAmqp */;
 			targetProxy = BDD83995C46BEFAC70726D36157290D4 /* PBXContainerItemProxy */;
-		};
-		C34D2DB8AA04ACB25E7B0D39D772C1EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 815A1743099B225AEB40F36AE563ADA7 /* PBXContainerItemProxy */;
 		};
 		C78A7DB5D9D6D591E56DECDB86A47C13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3640,12 +3424,6 @@
 			name = AzureMacroUtils;
 			target = D1622A3A18403322156C6932098E1E28 /* AzureMacroUtils */;
 			targetProxy = 6A32F128FE9C6EDA5F629564353CC7DC /* PBXContainerItemProxy */;
-		};
-		EA2F365B281B4619B536270124DD699A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AzureIoTUtility;
-			target = 0F623B6B20ADF25DE20060F87BFF48A3 /* AzureIoTUtility */;
-			targetProxy = AE6606D1BF9C5B880D3E503ED5EFEE69 /* PBXContainerItemProxy */;
 		};
 		EF015A5C8821304FE8A26EFFEA5B1F7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3687,7 +3465,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3726,7 +3503,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3764,7 +3540,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTUtility/AzureIoTUtility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTUtility/AzureIoTUtility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3793,7 +3568,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3823,7 +3597,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3928,7 +3701,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3957,7 +3729,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3966,48 +3737,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		39F10329495BF9A91B438E31135B0DB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE31A6F19FC1B51F18C7B84754C71705 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4C9776C8FDCE4AF3FB32512CB948B713 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4028,7 +3757,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4067,7 +3795,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4105,7 +3832,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4136,7 +3862,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4166,7 +3891,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4204,7 +3928,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTHubClient/AzureIoTHubClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4235,7 +3958,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4247,7 +3969,7 @@
 		};
 		998B7FA23AF3009C3CD59ADE5A1C72B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC9F560868DEF4E1C44EDCF017844AF6 /* Pods-LokiSDK.debug.xcconfig */;
+			baseConfigurationReference = 86128D4B9E915217EF6A1237F4391BA1 /* Pods-LokiSDK.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -4265,7 +3987,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LokiSDK/Pods-LokiSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4305,7 +4026,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTUtility/AzureIoTUtility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTUtility/AzureIoTUtility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4345,7 +4065,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4374,7 +4093,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4404,7 +4122,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4434,7 +4151,6 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4447,7 +4163,7 @@
 		};
 		EBCF3DDC84257AD81333F104D649E8C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F38197219C10CB96998BB8AA0AE93EA8 /* Pods-LokiSDK.release.xcconfig */;
+			baseConfigurationReference = 1439C8FD04462D95BEFBC2EE29E814D4 /* Pods-LokiSDK.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -4465,7 +4181,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LokiSDK/Pods-LokiSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4549,47 +4264,6 @@
 			};
 			name = Release;
 		};
-		F5E7F43847B61FFBF4A777979BFACCAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A9DBF9CC1CF15FE0BEC870FCDE00505 /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F5F3306F2C09AB4B623C805497E28D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88FEA6728B2C54E2EE4261596A4C5E34 /* Alamofire.release.xcconfig */;
@@ -4610,7 +4284,6 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4728,15 +4401,6 @@
 			buildConfigurations = (
 				87A14F3B9F7012D908E26F9C85C6E2B3 /* Debug */,
 				D1E59CDF9E2DD794884C692EE3D47334 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E76EE46011DD45E30F98316E993E7843 /* Build configuration list for PBXNativeTarget "Pods-LokiSDK-LokiSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5E7F43847B61FFBF4A777979BFACCAB /* Debug */,
-				39F10329495BF9A91B438E31135B0DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
