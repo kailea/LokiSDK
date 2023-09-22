@@ -97,3 +97,7 @@ Products/
 verbose.log
 
 *.xcuserstate
+
+Readme.PodUpdate
+
+Readme.createXCFramework

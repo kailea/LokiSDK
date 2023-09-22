@@ -266,6 +266,14 @@ public class Loki: NSObject {
 		}
 	}
 	
+	public static func getLocationData() -> [LocationEntity]?{
+		return sharedInstance.dc.getLocationData()
+	}
+	
+	public static func clearLocationData() -> Bool {
+		return sharedInstance.dc.clearLocationData()
+	}
+	
 	public static func unSubscribe(subsriberIds: [String]) async -> Bool {
 		let subsriberIds = subsriberIds.map{$0.trimmingCharacters(in: .whitespaces)}
 		do {

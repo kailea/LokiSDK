@@ -152,6 +152,8 @@ public protocol LokiDelegate : AnyObject {
   #if compiler(>=5.3) && $AsyncAwait
   public static func subscribe(subsriberIds: [Swift.String]) async -> [LokiSDK.LokiLocation]?
   #endif
+  public static func getLocationData() -> [LokiSDK.LocationEntity]?
+  public static func clearLocationData() -> Swift.Bool
   #if compiler(>=5.3) && $AsyncAwait
   public static func unSubscribe(subsriberIds: [Swift.String]) async -> Swift.Bool
   #endif
