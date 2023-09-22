@@ -93,3 +93,7 @@ iOSInjectionProject/
 
 archives/
 Products/
+
+verbose.log
+
+*.xcuserstate
