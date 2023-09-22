@@ -1,7 +1,7 @@
 framework module LokiSDK {
   umbrella header "LokiSDK.h"
-  export *
 
+  export *
   module * { export * }
 }
 

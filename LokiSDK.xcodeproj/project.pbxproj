@@ -59,7 +59,20 @@
 		FDB0215C2AB94B620070C04E /* FrameworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215B2AB94B620070C04E /* FrameworkConstants.swift */; };
 		FDB0215F2AB94CC00070C04E /* String+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215D2AB94CC00070C04E /* String+Substrings.swift */; };
 		FDB021602AB94CC00070C04E /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0215E2AB94CC00070C04E /* String+Trim.swift */; };
+		FDB021AD2ABD528C0070C04E /* LokiSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB021AC2ABD528C0070C04E /* LokiSDKTests.swift */; };
+		FDB021AE2ABD528C0070C04E /* LokiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB020D32AB936430070C04E /* LokiSDK.framework */; };
+		FED8810CEA001168F12239A5 /* Pods_LokiSDK_LokiSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6FC4C637C4692037B0BE8B /* Pods_LokiSDK_LokiSDKTests.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB021AF2ABD528C0070C04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB020CA2AB936430070C04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB020D22AB936430070C04E;
+			remoteInfo = LokiSDK;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6985CB08AD01BC70EC4CF4F4 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokiSDK-LokiSDKTests.release.xcconfig"; path = "Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +83,6 @@
 		FC6FC4C637C4692037B0BE8B /* Pods_LokiSDK_LokiSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokiSDK_LokiSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB020D32AB936430070C04E /* LokiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LokiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB020D62AB936430070C04E /* LokiSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LokiSDK.h; sourceTree = "<group>"; };
-		FDB020E02AB936430070C04E /* LokiSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokiSDKTests.swift; sourceTree = "<group>"; };
 		FDB020F12AB948470070C04E /* LokiServiceAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiServiceAssembly.swift; sourceTree = "<group>"; };
 		FDB020F22AB948470070C04E /* Loki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loki.swift; sourceTree = "<group>"; };
 		FDB020F32AB948470070C04E /* LokiLocationManagerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LokiLocationManagerInterface.swift; sourceTree = "<group>"; };
@@ -125,6 +137,8 @@
 		FDB0215D2AB94CC00070C04E /* String+Substrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Substrings.swift"; sourceTree = "<group>"; };
 		FDB0215E2AB94CC00070C04E /* String+Trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
 		FDB021612AB94D450070C04E /* Loki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Loki-Info.plist"; sourceTree = "<group>"; };
+		FDB021AA2ABD528C0070C04E /* LokiSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokiSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB021AC2ABD528C0070C04E /* LokiSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokiSDKTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +147,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA25509BCFD435D63306479 /* Pods_LokiSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB021A72ABD528C0070C04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB021AE2ABD528C0070C04E /* LokiSDK.framework in Frameworks */,
+				FED8810CEA001168F12239A5 /* Pods_LokiSDK_LokiSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB020D52AB936430070C04E /* LokiSDK */,
-				FDB020DF2AB936430070C04E /* LokiSDKTests */,
+				FDB021AB2ABD528C0070C04E /* LokiSDKTests */,
 				FDB020D42AB936430070C04E /* Products */,
 				F5CBA3F4F63ED245AA6224ED /* Pods */,
 				DBF27190CB4A4D285AEA8C7D /* Frameworks */,
@@ -174,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB020D32AB936430070C04E /* LokiSDK.framework */,
+				FDB021AA2ABD528C0070C04E /* LokiSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,14 +214,6 @@
 				FDB0215A2AB94B380070C04E /* Supporting Files */,
 			);
 			path = LokiSDK;
-			sourceTree = "<group>";
-		};
-		FDB020DF2AB936430070C04E /* LokiSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				FDB020E02AB936430070C04E /* LokiSDKTests.swift */,
-			);
-			path = LokiSDKTests;
 			sourceTree = "<group>";
 		};
 		FDB020F02AB948470070C04E /* LokiCore */ = {
@@ -312,6 +328,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FDB021AB2ABD528C0070C04E /* LokiSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB021AC2ABD528C0070C04E /* LokiSDKTests.swift */,
+			);
+			path = LokiSDKTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -345,6 +369,26 @@
 			productReference = FDB020D32AB936430070C04E /* LokiSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FDB021A92ABD528C0070C04E /* LokiSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB021B32ABD528C0070C04E /* Build configuration list for PBXNativeTarget "LokiSDKTests" */;
+			buildPhases = (
+				3F8134A0B040D9820020F20A /* [CP] Check Pods Manifest.lock */,
+				FDB021A62ABD528C0070C04E /* Sources */,
+				FDB021A72ABD528C0070C04E /* Frameworks */,
+				FDB021A82ABD528C0070C04E /* Resources */,
+				7561DD1F769CFB902F0D54DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB021B02ABD528C0070C04E /* PBXTargetDependency */,
+			);
+			name = LokiSDKTests;
+			productName = LokiSDKTests;
+			productReference = FDB021AA2ABD528C0070C04E /* LokiSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +400,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					FDB020D22AB936430070C04E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FDB021A92ABD528C0070C04E = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -374,12 +421,20 @@
 			projectRoot = "";
 			targets = (
 				FDB020D22AB936430070C04E /* LokiSDK */,
+				FDB021A92ABD528C0070C04E /* LokiSDKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FDB020D12AB936430070C04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB021A82ABD528C0070C04E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,6 +464,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F8134A0B040D9820020F20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokiSDK-LokiSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7561DD1F769CFB902F0D54DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LokiSDK-LokiSDKTests/Pods-LokiSDK-LokiSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -471,7 +565,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDB021A62ABD528C0070C04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB021AD2ABD528C0070C04E /* LokiSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB021B02ABD528C0070C04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB020D22AB936430070C04E /* LokiSDK */;
+			targetProxy = FDB021AF2ABD528C0070C04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FDB020E32AB936430070C04E /* Debug */ = {
@@ -669,6 +779,42 @@
 			};
 			name = Release;
 		};
+		FDB021B12ABD528C0070C04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1D401A99680D7AA8353A9A /* Pods-LokiSDK-LokiSDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.snapp.LokiSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB021B22ABD528C0070C04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6985CB08AD01BC70EC4CF4F4 /* Pods-LokiSDK-LokiSDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Q36729AW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.guardiancorp.snapp.LokiSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,6 +832,15 @@
 			buildConfigurations = (
 				FDB020E62AB936430070C04E /* Debug */,
 				FDB020E72AB936430070C04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB021B32ABD528C0070C04E /* Build configuration list for PBXNativeTarget "LokiSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB021B12ABD528C0070C04E /* Debug */,
+				FDB021B22ABD528C0070C04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

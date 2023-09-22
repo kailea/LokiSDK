@@ -15,9 +15,9 @@ target 'LokiSDK' do
 	pod 'DeviceKit'
 	pod 'Swinject'
 
-  #target 'LokiSDKTests' do
+  target 'LokiSDKTests' do
     # Pods for testing
-  #end
+  end
 
 end
 
@@ -31,7 +31,6 @@ post_install do |installer|
 	end
 	installer.pods_project.targets.each do |target|
 		target.build_configurations.each do |config|
-			config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
 			if config.base_configuration_reference.is_a? Xcodeproj::Project::Object::PBXFileReference
 				xcconfig_path = config.base_configuration_reference.real_path
 				IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
@@ -41,6 +40,7 @@ post_install do |installer|
 			config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
 			config.build_settings['DEBUG_INFORMATION_FORMAT'] = 'dwarf'
 			config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+			config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
 		end
 	end
 end

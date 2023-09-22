@@ -34,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDB020DA2AB936430070C04E"
+               BlueprintIdentifier = "FDB021A92ABD528C0070C04E"
                BuildableName = "LokiSDKTests.xctest"
                BlueprintName = "LokiSDKTests"
                ReferencedContainer = "container:LokiSDK.xcodeproj">

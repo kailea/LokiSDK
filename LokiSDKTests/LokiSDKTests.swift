@@ -2,11 +2,10 @@
 //  LokiSDKTests.swift
 //  LokiSDKTests
 //
-//  Created by Amandeep Kaile on 19/9/2023.
+//  Created by Amandeep Kaile on 22/9/2023.
 //
 
 import XCTest
-@testable import LokiSDK
 
 final class LokiSDKTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class LokiSDKTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
