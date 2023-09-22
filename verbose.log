@@ -1,0 +1,806 @@
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Updating spec repo `trunk`
+  CDN: trunk Relative path: deprecated_podspecs.txt, has ETag? W/"650cd71d-afdf9"
+  CDN: trunk Relative path downloaded: deprecated_podspecs.txt, save ETag: W/"650cd9eb-afdf9"
+  CDN: trunk Going to update 75 files
+  CDN: trunk Relative path: all_pods_versions_8_3_c.txt, has ETag? W/"650cd71d-579"
+  CDN: trunk Relative path: all_pods_versions_e_d_6.txt, has ETag? W/"650cd71d-6ad"
+  CDN: trunk Relative path: all_pods_versions_1_5_1.txt, has ETag? W/"650cd9eb-641"
+  CDN: trunk Relative path: all_pods_versions_8_1_b.txt, has ETag? W/"650cd9eb-1327"
+  CDN: trunk Relative path: all_pods_versions_e_7_8.txt, has ETag? W/"650cd9eb-4d8"
+  CDN: trunk Relative path: all_pods_versions_3_0_d.txt, has ETag? W/"650cd9eb-315"
+  CDN: trunk Relative path: all_pods_versions_0_1_d.txt, has ETag? W/"650cd9eb-9d0"
+  CDN: trunk Relative path: all_pods_versions_7_a_4.txt, has ETag? W/"650cd9eb-3a7"
+  CDN: trunk Relative path: all_pods_versions_3_6_1.txt, has ETag? W/"650cd9eb-4cb"
+  CDN: trunk Relative path: all_pods_versions_2_6_5.txt, has ETag? W/"650cd9eb-3c4"
+  CDN: trunk Relative path: all_pods_versions_d_d_6.txt, has ETag? W/"650cd9eb-69c"
+  CDN: trunk Relative path: all_pods_versions_f_c_4.txt, has ETag? W/"650cd9eb-4e5"
+  CDN: trunk Relative path: all_pods_versions_a_5_c.txt, has ETag? W/"650cd9eb-41b"
+  CDN: trunk Relative path: all_pods_versions_2_4_b.txt, has ETag? W/"650cd9eb-743"
+  CDN: trunk Relative path: all_pods_versions_9_4_5.txt, has ETag? W/"650cd9eb-f18"
+  CDN: trunk Relative path: all_pods_versions_a_0_6.txt, has ETag? W/"650cd9eb-575"
+  CDN: trunk Relative path: all_pods_versions_0_6_4.txt, has ETag? W/"650cd9eb-5a6"
+  CDN: trunk Relative path: all_pods_versions_3_7_c.txt, has ETag? W/"650cd9eb-38a"
+  CDN: trunk Relative path: all_pods_versions_7_f_2.txt, has ETag? W/"650cd9eb-3f7"
+  CDN: trunk Relative path: all_pods_versions_5_8_a.txt, has ETag? W/"650cd9eb-848"
+  CDN: trunk Relative path: all_pods_versions_8_4_3.txt, has ETag? W/"650cd9eb-5ba"
+  CDN: trunk Relative path: all_pods_versions_c_3_2.txt, has ETag? W/"650cd9eb-870"
+  CDN: trunk Relative path: all_pods_versions_1_4_0.txt, has ETag? W/"650cd9eb-4ff"
+  CDN: trunk Relative path: all_pods_versions_0_6_a.txt, has ETag? W/"650cd71d-377"
+  CDN: trunk Relative path: all_pods_versions_d_e_d.txt, has ETag? W/"650cd9eb-2f3"
+  CDN: trunk Relative path: all_pods_versions_3_5_b.txt, has ETag? W/"650cd9eb-600"
+  CDN: trunk Relative path: all_pods_versions_7_9_1.txt, has ETag? W/"650cd71d-363"
+  CDN: trunk Relative path: all_pods_versions_2_1_5.txt, has ETag? W/"650cd9eb-96b"
+  CDN: trunk Relative path: all_pods_versions_3_1_b.txt, has ETag? W/"650cd9eb-43b"
+  CDN: trunk Relative path: all_pods_versions_d_a_2.txt, has ETag? W/"650cd9eb-74a"
+  CDN: trunk Relative path: all_pods_versions_d_e_6.txt, has ETag? W/"650cd9eb-456"
+  CDN: trunk Relative path: all_pods_versions_d_c_1.txt, has ETag? W/"650cd9eb-6f7"
+  CDN: trunk Relative path: all_pods_versions_e_8_d.txt, has ETag? W/"650cd9eb-806"
+  CDN: trunk Relative path: all_pods_versions_3_5_e.txt, has ETag? W/"650cd9eb-323"
+  CDN: trunk Relative path: CocoaPods-version.yml, has ETag? "650cd71d-38"
+  CDN: trunk Relative path: all_pods_versions_2_d_8.txt, has ETag? W/"650cd9eb-69c"
+  CDN: trunk Relative path: all_pods_versions_a_e_b.txt, has ETag? W/"650cd9eb-8db"
+  CDN: trunk Relative path: all_pods_versions_2_f_7.txt, has ETag? W/"650cd71d-405"
+  CDN: trunk Relative path: all_pods_versions_6_3_6.txt, has ETag? W/"650cd9eb-8d4"
+  CDN: trunk Relative path: all_pods_versions_d_6_6.txt, has ETag? W/"650cd71d-402"
+  CDN: trunk Relative path: all_pods_versions_8_8_d.txt, has ETag? W/"650cd9eb-5cf"
+  CDN: trunk Relative path: all_pods_versions_d_c_9.txt, has ETag? W/"650cd9eb-512"
+  CDN: trunk Relative path: all_pods_versions_a_a_6.txt, has ETag? W/"650cd9eb-ec8"
+  CDN: trunk Relative path: all_pods_versions_0_8_4.txt, has ETag? W/"650cd71d-3f7"
+  CDN: trunk Relative path: all_pods_versions_8_c_7.txt, has ETag? W/"650cd9eb-57d"
+  CDN: trunk Relative path: all_pods_versions_f_9_9.txt, has ETag? W/"650cd9eb-3cb"
+  CDN: trunk Relative path: all_pods_versions_6_1_e.txt, has ETag? W/"650cd71d-54c"
+  CDN: trunk Relative path: all_pods_versions_e_2_1.txt, has ETag? W/"650cd71d-813"
+  CDN: trunk Relative path: all_pods_versions_0_b_5.txt, has ETag? W/"650cd71d-612"
+  CDN: trunk Relative path: all_pods_versions_e_7_d.txt, has ETag? W/"650cd71d-483"
+  CDN: trunk Relative path: all_pods_versions_f_6_3.txt, has ETag? W/"650cd9eb-434"
+  CDN: trunk Relative path: all_pods_versions_c_e_3.txt, has ETag? W/"650cd71d-61d"
+  CDN: trunk Relative path: all_pods_versions_8_b_d.txt, has ETag? W/"650cd71d-553"
+  CDN: trunk Relative path: all_pods_versions_f_2_a.txt, has ETag? W/"650cd9eb-6f1"
+  CDN: trunk Relative path: all_pods_versions_f_0_c.txt, has ETag? W/"650cd9eb-5f3"
+  CDN: trunk Relative path: all_pods_versions_f_6_f.txt, has ETag? W/"650cd9eb-561"
+  CDN: trunk Relative path: all_pods_versions_e_3_b.txt, has ETag? W/"650cd71d-d6d"
+  CDN: trunk Relative path: all_pods_versions_c_8_2.txt, has ETag? W/"650cd9eb-54b"
+  CDN: trunk Relative path: all_pods_versions_3_8_4.txt, has ETag? W/"650cd9eb-70a"
+  CDN: trunk Relative path: all_pods_versions_c_e_7.txt, has ETag? W/"650cd9eb-b08"
+  CDN: trunk Relative path: all_pods_versions_b_0_9.txt, has ETag? W/"650cd9eb-5b0"
+  CDN: trunk Relative path: all_pods_versions_a_d_d.txt, has ETag? W/"650cd9eb-4e9"
+  CDN: trunk Relative path: all_pods_versions_5_5_c.txt, has ETag? W/"650cd9eb-406"
+  CDN: trunk Relative path: all_pods_versions_b_a_7.txt, has ETag? W/"650cd9eb-1132"
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json, has ETag? W/"dbd-IlDN9MijkDr0cq+Swu+MXUpXz8Y"
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json, has ETag? W/"9e7-TUt0WxIvgyMhatkPS8t+DUD45v0"
+  CDN: trunk Relative path: Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json, has ETag? W/"5c6-Qw0PCkO6/2UE9SVOnLfiH4aEQ7Q"
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json, has ETag? W/"777-CI0rcU7XxwmA8+cqCIlpUYRElL8"
+  CDN: trunk Relative path: Specs/c/3/2/GooglePlaces/1.0.1/GooglePlaces.podspec.json, has ETag? W/"345-cmd/j6BvjXCfB5IbT7lm0PlruSk"
+  CDN: trunk Relative path: Specs/c/3/2/GooglePlaces/1.0.2/GooglePlaces.podspec.json, has ETag? W/"345-2oC9fS+jBwIwsAGlI3IewTnJAEQ"
+  CDN: trunk Relative path: Specs/c/3/2/GooglePlaces/1.0.3/GooglePlaces.podspec.json, has ETag? W/"345-Q4QuaaZTf+dPrr/D8LanC3CFl0g"
+  CDN: trunk Relative path: Specs/c/3/2/GooglePlaces/1.0.4/GooglePlaces.podspec.json, has ETag? W/"345-JABsHo0K7QD8K5Q2nQXvsy8YulQ"
+  CDN: trunk Relative path: Specs/c/3/2/GooglePlaces/1.0.5/GooglePlaces.podspec.json, has ETag? W/"39d-nFa09Zkp2ZWlAjptbglpte0jOpw"
+  CDN: trunk Relative path: Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json, has ETag? W/"66b-/Oy7PX5FTlxMilAc4zwzKrg+Q9A"
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json, has ETag? W/"71e-gMc1HTLqgvNeiwGJ0rLnecp6NSc"
+  CDN: trunk Relative path downloaded: all_pods_versions_8_3_c.txt, save ETag: W/"650cd9eb-579"
+  CDN: trunk Relative path not modified: all_pods_versions_0_1_d.txt
+  CDN: trunk Relative path not modified: all_pods_versions_2_4_b.txt
+  CDN: trunk Relative path not modified: all_pods_versions_9_4_5.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_0_6.txt
+  CDN: trunk Relative path not modified: all_pods_versions_0_6_4.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_7_c.txt
+  CDN: trunk Relative path not modified: all_pods_versions_7_f_2.txt
+  CDN: trunk Relative path not modified: all_pods_versions_8_4_3.txt
+  CDN: trunk Relative path not modified: all_pods_versions_c_3_2.txt
+  CDN: trunk Relative path not modified: all_pods_versions_1_4_0.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_5_b.txt
+  CDN: trunk Relative path downloaded: all_pods_versions_e_d_6.txt, save ETag: W/"650cd9eb-6ad"
+  CDN: trunk Relative path downloaded: all_pods_versions_7_9_1.txt, save ETag: W/"650cd9eb-363"
+  CDN: trunk Relative path downloaded: all_pods_versions_2_f_7.txt, save ETag: W/"650cd9eb-405"
+  CDN: trunk Relative path not modified: all_pods_versions_1_5_1.txt
+  CDN: trunk Relative path not modified: all_pods_versions_8_1_b.txt
+  CDN: trunk Relative path not modified: all_pods_versions_e_7_8.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_0_d.txt
+  CDN: trunk Relative path not modified: all_pods_versions_2_1_5.txt
+  CDN: trunk Relative path not modified: all_pods_versions_d_a_2.txt
+  CDN: trunk Relative path not modified: all_pods_versions_d_e_6.txt
+  CDN: trunk Relative path not modified: all_pods_versions_d_c_1.txt
+  CDN: trunk Relative path not modified: all_pods_versions_e_8_d.txt
+  CDN: trunk Relative path downloaded: all_pods_versions_0_6_a.txt, save ETag: W/"650cd9eb-377"
+  CDN: trunk Relative path not modified: all_pods_versions_7_a_4.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_6_1.txt
+  CDN: trunk Relative path not modified: all_pods_versions_2_6_5.txt
+  CDN: trunk Relative path not modified: all_pods_versions_d_d_6.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_c_4.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_5_c.txt
+  CDN: trunk Relative path not modified: all_pods_versions_5_8_a.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_e_b.txt
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json
+  CDN: trunk Relative path downloaded: all_pods_versions_0_8_4.txt, save ETag: W/"650cd9eb-3f7"
+  CDN: trunk Relative path not modified: all_pods_versions_8_c_7.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_9_9.txt
+  CDN: trunk Relative path downloaded: all_pods_versions_6_1_e.txt, save ETag: W/"650cd9eb-54c"
+  CDN: trunk Relative path not modified: all_pods_versions_3_1_b.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_5_e.txt
+  CDN: trunk Relative path not modified: all_pods_versions_8_8_d.txt
+  CDN: trunk Relative path not modified: all_pods_versions_d_c_9.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_a_6.txt
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/c/3/2/GooglePlaces/1.0.1/GooglePlaces.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/c/3/2/GooglePlaces/1.0.1/GooglePlaces.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/c/3/2/GooglePlaces/1.0.2/GooglePlaces.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/c/3/2/GooglePlaces/1.0.2/GooglePlaces.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/c/3/2/GooglePlaces/1.0.3/GooglePlaces.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/c/3/2/GooglePlaces/1.0.3/GooglePlaces.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/c/3/2/GooglePlaces/1.0.4/GooglePlaces.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/c/3/2/GooglePlaces/1.0.4/GooglePlaces.podspec.json
+  CDN: trunk Relative path downloaded: CocoaPods-version.yml, save ETag: "650cd9eb-38"
+  CDN: trunk Relative path downloaded: all_pods_versions_e_2_1.txt, save ETag: W/"650cd9eb-813"
+  CDN: trunk Relative path downloaded: all_pods_versions_0_b_5.txt, save ETag: W/"650cd9eb-612"
+  CDN: trunk Relative path downloaded: all_pods_versions_e_7_d.txt, save ETag: W/"650cd9eb-483"
+  CDN: trunk Relative path not modified: all_pods_versions_6_3_6.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_6_3.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_2_a.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_0_c.txt
+  CDN: trunk Relative path not modified: all_pods_versions_f_6_f.txt
+  CDN: trunk Relative path not modified: all_pods_versions_c_e_7.txt
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/c/3/2/GooglePlaces/1.0.5/GooglePlaces.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/c/3/2/GooglePlaces/1.0.5/GooglePlaces.podspec.json
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json
+  CDN: trunk Relative path downloaded: all_pods_versions_d_6_6.txt, save ETag: W/"650cd9eb-402"
+  CDN: trunk Relative path downloaded: all_pods_versions_e_3_b.txt, save ETag: W/"650cd9eb-d6d"
+  CDN: trunk Relative path not modified: all_pods_versions_d_e_d.txt
+  CDN: trunk Relative path not modified: all_pods_versions_c_8_2.txt
+  CDN: trunk Relative path not modified: all_pods_versions_3_8_4.txt
+  CDN: trunk Relative path not modified: all_pods_versions_b_0_9.txt
+  CDN: trunk Relative path not modified: all_pods_versions_a_d_d.txt
+  CDN: trunk Relative path not modified: all_pods_versions_b_a_7.txt
+  CDN: trunk Redirecting from https://cdn.cocoapods.org/Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json to https://cdn.jsdelivr.net/cocoa/Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json
+  CDN: trunk Relative path downloaded: all_pods_versions_8_b_d.txt, save ETag: W/"650cd9eb-553"
+  CDN: trunk Relative path not modified: all_pods_versions_2_d_8.txt
+  CDN: trunk Relative path not modified: all_pods_versions_5_5_c.txt
+  CDN: trunk Relative path downloaded: all_pods_versions_c_e_3.txt, save ETag: W/"650cdae5-61d"
+  CDN: trunk Relative path not modified: Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json
+  CDN: trunk Relative path not modified: Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json
+  CDN: trunk Relative path not modified: Specs/c/3/2/GooglePlaces/1.0.1/GooglePlaces.podspec.json
+  CDN: trunk Relative path not modified: Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json
+  CDN: trunk Relative path not modified: Specs/c/3/2/GooglePlaces/1.0.2/GooglePlaces.podspec.json
+  CDN: trunk Relative path not modified: Specs/c/3/2/GooglePlaces/1.0.3/GooglePlaces.podspec.json
+  CDN: trunk Relative path not modified: Specs/c/3/2/GooglePlaces/1.0.4/GooglePlaces.podspec.json
+  CDN: trunk Relative path not modified: Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json
+  CDN: trunk Relative path not modified: Specs/c/3/2/GooglePlaces/1.0.5/GooglePlaces.podspec.json
+  CDN: trunk Relative path not modified: Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json
+  CDN: trunk Relative path not modified: Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json
+Validating podspec
+ -> LokiSDK  LokiSDK (1.0.0) - Analyzing on iOS 15.1 platform.
+  - Generating Info.plist file at `../../../../var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/App/App-Info.plist`
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `LokiSDK` from `/Users/akaile/Development/LokiSDK/LokiSDK.podspec`
+
+Resolving dependencies of 
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_d_a_2.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.8.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_1_4_0.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_e_8_d.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_b_0_9.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_3_8_4.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_e_d_6.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/3.1.2000/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_d_e_6.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/5.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_3_0_d.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.8.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.8.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.8.0-patch-1/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.8.0-beta-1/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.5.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.3.9/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.3.9-patch-1/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.3.8/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.3.8a/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.12/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.12d/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.12c/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.12b/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.12a/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.11/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.10/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.4/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.3/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.1.2/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.9/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.8/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.7-m/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.6/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.5/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.4/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.3/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.1/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.0.0-pre-release-1.0.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/0.0.0.1-pre-release.0.0.1/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/0.0.0.1-pre-release/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_7_f_2.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_d_e_d.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/7/f/2/AzureMacroUtils/1.4.0/AzureMacroUtils.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.10.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.8.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.8.0-patch-1/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.8.0-beta-1/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.5.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.3.9/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.3.9-patch-2/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.3.9-patch-1/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.3.8/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.3.8a/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12e/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12d/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12c/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12b/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.12a/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.11/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.10/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.4/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.3/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.1.2/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.9/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.8/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.7-u2/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.6/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.5/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.4/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.3/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.2/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.1/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/1.0.0-pre-release-1.0.0/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/0.0.0.1-pre-release.0.0.1/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/4/0/AzureIoTUtility/0.0.0.1-pre-release/AzureIoTUtility.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/d/AzureuMockC/1.4.0/AzureuMockC.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.8.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.8.0-patch-1/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.8.0-beta-1/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.5.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.3.9/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.3.9-patch-1/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.3.8/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.3.8a/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.12/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.12d/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.12c/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.12b/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.12a/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.11/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.10/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.4/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.3/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.2.2/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.9/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.8/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.7-a/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.6/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.5/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.4/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.3/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.1/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.0.0-pre-release-1.0.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/0.0.0.1-pre-release.0.0.1/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/0.0.0.1-pre-release/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.10.0/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.8.0/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.8.0-patch-1/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.8.0-beta-1/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.5.0/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.9/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.9-LTS-patch-1/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.9-LTS/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.8/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.8a/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-public-preview-c/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-public-preview-b/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-public-preview-a/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-public-preview/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-nightly-a/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.3.6-nightly/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.2.11/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.2.4/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.2.3/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.2.2/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.9/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.8/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.7-h/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.6/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.5/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.4/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.3/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.2/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.1/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/1.0.0-pre-release-1.0.0/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/0.0.0.1-pre-release.0.0.3/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/0.0.0.1-pre-release.0.0.2/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/8/4/AzureIoTHubClient/0.0.0.1-pre-release.0.0.1/AzureIoTHubClient.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/8/d/AzureIoTuMqtt/1.10.0/AzureIoTuMqtt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/b/0/9/AzureIoTuAmqp/1.10.0/AzureIoTuAmqp.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/3.1.2000/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.2200/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.2100/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.2000/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1900/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1700/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1501/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1500/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1400/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1300/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1200/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.1100/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.180/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.171/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.170/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.1.17/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.20/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.19/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.18/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.17/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.13/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.11/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.2.10/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.20/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.19/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.18/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.17/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.16/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.q/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.p/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.l/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.k/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.j-2/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.j/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.i/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.h/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.g/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/e/d/6/OpenSSL-Universal/1.0.1.f/OpenSSL-Universal.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.8.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.8.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.8.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.8.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.7.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.7.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.6.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.6.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.6.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.5.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.4.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.4.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.3.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.2.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.1.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.1.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.0.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.0.0-beta.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.0.0-beta.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/2.0.0-beta.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.5/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.4/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.1.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.0.0/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.0.0-beta.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.0.0-beta.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/1.0.0-beta.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.5/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.4/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.2.3/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.2.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.2.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.2/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.1.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/3/0/d/Swinject/0.1/Swinject.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/5.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/5.0.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.9.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.8.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.7.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.6.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.6.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.5.2/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.5.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.5.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.4.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.3.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.2.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.2.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/4.0.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/3.2.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/3.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/3.0.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/2.3.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/2.2.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/2.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/2.0.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.13.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.12.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.11.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.10.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.9.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.8.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.8.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.7.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.6.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.5.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.4.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.3.2/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.3.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.3.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.2.3/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.0.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/1.0.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.3.4/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.3.3/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.3.2/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.3.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.3.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.2.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.1.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.1.0/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/e/6/DeviceKit/0.0.1/DeviceKit.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.8.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.7.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.7.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.6.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.6.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.6.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.6.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.6.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.5.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.4.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.4.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.4.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.4.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.4.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.3.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.2.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.2.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.2.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.1.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.5/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-rc.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-rc.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-rc.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.7/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.6/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.5/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0-beta.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/5.0.0.beta.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.9.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.9.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.8.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.8.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.8.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.7.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.7.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.7.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.7.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.6.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.5.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.5.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.4.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.3.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.2.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.1.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.0.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/4.0.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.5.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.5.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.4.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.4.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.4.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.3.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.3.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.2.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.2.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.5/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.1.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.0.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.0.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.0.0-beta.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.0.0-beta.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/3.0.0-beta.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.0-beta.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.0-beta.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.0-beta.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/2.0.0-beta.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.3.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.3.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.2.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.2.2/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.2.1/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.2.0/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.1.5/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.1.4/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/d/a/2/Alamofire/1.1.3/Alamofire.podspec.json exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A Alamofire
+  A AzureIoTHubClient
+  A AzureIoTUtility
+  A AzureIoTuAmqp
+  A AzureIoTuMqtt
+  A AzureMacroUtils
+  A AzureuMockC
+  A DeviceKit
+  A LokiSDK
+  A OpenSSL-Universal
+  A Swinject
+
+Downloading dependencies
+
+-> Installing Alamofire (5.8.0)
+  > Copying Alamofire from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/Alamofire/5.8.0-0e92e` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Alamofire`
+
+-> Installing AzureIoTHubClient (1.10.0)
+  > Copying AzureIoTHubClient from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureIoTHubClient/1.10.0-4d4b7` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureIoTHubClient`
+
+-> Installing AzureIoTUtility (1.10.0)
+  > Copying AzureIoTUtility from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureIoTUtility/1.10.0-2250c` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureIoTUtility`
+
+-> Installing AzureIoTuAmqp (1.10.0)
+  > Copying AzureIoTuAmqp from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureIoTuAmqp/1.10.0-088d2` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureIoTuAmqp`
+
+-> Installing AzureIoTuMqtt (1.10.0)
+  > Copying AzureIoTuMqtt from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureIoTuMqtt/1.10.0-80c73` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureIoTuMqtt`
+
+-> Installing AzureMacroUtils (1.4.0)
+  > Copying AzureMacroUtils from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureMacroUtils/1.4.0-430d0` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureMacroUtils`
+
+-> Installing AzureuMockC (1.4.0)
+  > Copying AzureuMockC from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/AzureuMockC/1.4.0-fcecb` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/AzureuMockC`
+
+-> Installing DeviceKit (5.1.0)
+  > Copying DeviceKit from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/DeviceKit/5.1.0-bcce5` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/DeviceKit`
+
+-> Installing LokiSDK (1.0.0)
+ > Git download
+ > Git download
+     $ /usr/bin/git clone https://github.com/kailea/LokiSDK.git /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/d20230922-51291-1pqzdy0 --template= --single-branch --depth 1
+  $ /usr/bin/git -C /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/d20230922-51291-1pqzdy0 rev-parse HEAD
+  037fff177d0fd01bd3ada974e7947c0ff045ac2c
+  > Copying LokiSDK from `/Users/akaile/Library/Caches/CocoaPods/Pods/External/LokiSDK/4647e43b392fbee0c2d0afdaf2067bf2-c6af7` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/LokiSDK`
+
+-> Installing OpenSSL-Universal (3.1.2000)
+  > Copying OpenSSL-Universal from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/OpenSSL-Universal/3.1.2000-5c784` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/OpenSSL-Universal`
+
+-> Installing Swinject (2.8.3)
+  > Copying Swinject from `/Users/akaile/Library/Caches/CocoaPods/Pods/Release/Swinject/2.8.3-893c9` to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Swinject`
+  - Running pre install hooks
+  - Writing Lockfile in `../../../../var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Podfile.lock`
+  - Writing Manifest in `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Manifest.lock`
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `Alamofire` iOS 10.0
+      - Generating module map file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Alamofire/Alamofire.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Alamofire/Alamofire-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Alamofire/Alamofire-dummy.m`
+    - Installing target `AzureIoTHubClient` iOS 9.0
+      - Copying module map file to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTHubClient/AzureIoTHubClient.modulemap`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTHubClient/AzureIoTHubClient-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTHubClient/AzureIoTHubClient-dummy.m`
+    - Installing target `AzureIoTUtility` iOS 9.0
+      - Copying module map file to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTUtility/AzureIoTUtility.modulemap`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTUtility/AzureIoTUtility-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTUtility/AzureIoTUtility-dummy.m`
+    - Installing target `AzureIoTuAmqp` iOS 9.0
+      - Copying module map file to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp.modulemap`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuAmqp/AzureIoTuAmqp-dummy.m`
+    - Installing target `AzureIoTuMqtt` iOS 9.0
+      - Copying module map file to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt.modulemap`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/AzureIoTuMqtt/AzureIoTuMqtt-dummy.m`
+    - Installing target `AzureMacroUtils` iOS 9.0
+    - Installing target `AzureuMockC` iOS 9.0
+    - Installing target `DeviceKit` iOS 11.0
+      - Generating module map file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/DeviceKit/DeviceKit.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/DeviceKit/DeviceKit-umbrella.h`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/DeviceKit/DeviceKit-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/DeviceKit/DeviceKit-dummy.m`
+    - Installing target `LokiSDK` iOS 15.1
+    - Installing target `OpenSSL-Universal` iOS 14.0
+    - Installing target `Swinject` iOS 9.0
+      - Generating module map file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Swinject/Swinject.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Swinject/Swinject-umbrella.h`
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Swinject/Swinject-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Swinject/Swinject-dummy.m`
+  - Installing Aggregate Targets
+    - Installing target `Pods-App` iOS 15.1
+      - Generating Info.plist file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Pods-App/Pods-App-Info.plist`
+      - Generating module map file at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Pods-App/Pods-App.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Pods-App/Pods-App-umbrella.h`
+      - Generating dummy source at `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Integrating targets
+
+Integrating target `LokiSDK`
+    Adding Build Phase '[CP] Copy XCFrameworks' to project.
+
+Integrating target `OpenSSL-Universal`
+    Adding Build Phase '[CP] Copy XCFrameworks' to project.
+  - Stabilizing target UUIDs
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../private/var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/App.xcodeproj` project)
+  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 11 total pods installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=9934A07E-85C8-4AC0-A1FA-D018374E0EAE
+    Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -workspace /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=9934A07E-85C8-4AC0-A1FA-D018374E0EAE
+    
+    User defaults from command line:
+        IDEPackageSupportUseBuiltinSCM = YES
+    
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator17.0
+    
+    note: Using codesigning identity override: -
+    
+    ** CLEAN SUCCEEDED **
+    
+    Prepare packages
+    
+    note: Using codesigning identity override: -
+    ComputeTargetDependencyGraph
+    note: Building targets in dependency order
+    note: Target dependency graph (13 targets)
+        Target 'App' in project 'App'
+            ➜ Implicit dependency on target 'Pods-App' in project 'Pods' via file 'Pods_App.framework' in build phase 'Link Binary'
+            ➜ Implicit dependency on target 'Alamofire' in project 'Pods' via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'AzureIoTHubClient' in project 'Pods' via options '-framework AzureIoTHubClient' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'AzureIoTUtility' in project 'Pods' via options '-framework AzureIoTUtility' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'AzureIoTuAmqp' in project 'Pods' via options '-framework AzureIoTuAmqp' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'AzureIoTuMqtt' in project 'Pods' via options '-framework AzureIoTuMqtt' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'DeviceKit' in project 'Pods' via options '-framework DeviceKit' in build setting 'OTHER_LDFLAGS'
+            ➜ Implicit dependency on target 'Swinject' in project 'Pods' via options '-framework Swinject' in build setting 'OTHER_LDFLAGS'
+        Target 'Pods-App' in project 'Pods'
+            ➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTHubClient' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuAmqp' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuMqtt' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureuMockC' in project 'Pods'
+            ➜ Explicit dependency on target 'DeviceKit' in project 'Pods'
+            ➜ Explicit dependency on target 'LokiSDK' in project 'Pods'
+            ➜ Explicit dependency on target 'OpenSSL-Universal' in project 'Pods'
+            ➜ Explicit dependency on target 'Swinject' in project 'Pods'
+        Target 'LokiSDK' in project 'Pods'
+            ➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTHubClient' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuAmqp' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuMqtt' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'DeviceKit' in project 'Pods'
+            ➜ Explicit dependency on target 'OpenSSL-Universal' in project 'Pods'
+            ➜ Explicit dependency on target 'Swinject' in project 'Pods'
+        Target 'Swinject' in project 'Pods' (no dependencies)
+        Target 'OpenSSL-Universal' in project 'Pods' (no dependencies)
+        Target 'DeviceKit' in project 'Pods' (no dependencies)
+        Target 'AzureIoTHubClient' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuAmqp' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTuMqtt' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureuMockC' in project 'Pods'
+        Target 'AzureIoTuMqtt' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureuMockC' in project 'Pods'
+        Target 'AzureIoTuAmqp' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureuMockC' in project 'Pods'
+        Target 'AzureIoTUtility' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureuMockC' in project 'Pods'
+        Target 'AzureuMockC' in project 'Pods'
+            ➜ Explicit dependency on target 'AzureMacroUtils' in project 'Pods'
+        Target 'AzureMacroUtils' in project 'Pods' (no dependencies)
+        Target 'Alamofire' in project 'Pods' (no dependencies)
+    
+    GatherProvisioningInputs
+    
+    CreateBuildDescription
+    Build description signature: 67339d26b838fb340180c7a01e492dfb
+    Build description path: /Users/akaile/Library/Developer/Xcode/DerivedData/App-cqgkbyofgmwukebeqmibhtpkddtu/Build/Intermediates.noindex/XCBuildData/67339d26b838fb340180c7a01e492dfb.xcbuilddata
+    
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTHubClient' from project 'Pods')
+    warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTHubClient' from project 'Pods')
+    error: DT_TOOLCHAIN_DIR cannot be used to evaluate LIBRARY_SEARCH_PATHS, use TOOLCHAIN_DIR instead (in target 'LokiSDK' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'Alamofire' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTuMqtt' from project 'Pods')
+    warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTuMqtt' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureMacroUtils' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTuAmqp' from project 'Pods')
+    warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTuAmqp' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'DeviceKit' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTUtility' from project 'Pods')
+    warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTUtility' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureuMockC' from project 'Pods')
+    /var/folders/5h/xr36lngn7_1ct_0z8xmrc66m0000gn/T/CocoaPods-Lint-20230922-51291-16lisbw-LokiSDK/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'Swinject' from project 'Pods')
+  Testing with `xcodebuild`.
+ -> LokiSDK (1.0.0)
+    - WARN  | source: Git sources should specify a tag.
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  note: Target dependency graph (13 targets)
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTHubClient' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTHubClient' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  error: DT_TOOLCHAIN_DIR cannot be used to evaluate LIBRARY_SEARCH_PATHS, use TOOLCHAIN_DIR instead (in target 'LokiSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'Alamofire' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTuMqtt' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTuMqtt' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureMacroUtils' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTuAmqp' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTuAmqp' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'DeviceKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureIoTUtility' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: Run script build phase 'Create Symlinks to Header Folders' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'AzureIoTUtility' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'AzureuMockC' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 12.0 to 17.0.99. (in target 'Swinject' from project 'Pods')
+
+[!] The spec did not pass validation, due to 1 error.
+
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-trunk-1.6.0/lib/pod/command/trunk/push.rb:138:in `validate_podspec'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-trunk-1.6.0/lib/pod/command/trunk/push.rb:72:in `run'
+/Library/Ruby/Gems/2.6.0/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.12.1/lib/cocoapods/command.rb:52:in `run'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.12.1/bin/pod:55:in `<top (required)>'
+/usr/local/bin/pod:23:in `load'
+/usr/local/bin/pod:23:in `<main>'
